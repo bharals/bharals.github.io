@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>win10 安装优化 | Bharals&#39;s Blog | 此处风景独好！</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="win10,优化,skill">
+    <meta name="description" content="前言：去掉 win10 自动升级打开任务管理器 —— 找到服务 —— window update —— 修改属性为禁止升级 删除 onedrive1） 关于禁止 onedrive 自启动简单的就是在任务管理器的启动中禁用 onedrive 的启动项目就可以。2）关于组策略管理 运行 gpedit.msc，进入【计算机配置】-【管理模板】-【windows组件】-【onedrive】，右侧的三个选项">
+<meta name="keywords" content="win10,优化,skill">
+<meta property="og:type" content="article">
+<meta property="og:title" content="win10 安装优化">
+<meta property="og:url" content="http://ling007.cn/2017/06/03/skills/win10简单优化/index.html">
+<meta property="og:site_name" content="Bharals&#39;s Blog">
+<meta property="og:description" content="前言：去掉 win10 自动升级打开任务管理器 —— 找到服务 —— window update —— 修改属性为禁止升级 删除 onedrive1） 关于禁止 onedrive 自启动简单的就是在任务管理器的启动中禁用 onedrive 的启动项目就可以。2）关于组策略管理 运行 gpedit.msc，进入【计算机配置】-【管理模板】-【windows组件】-【onedrive】，右侧的三个选项">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-08-06T19:49:35.814Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="win10 安装优化">
+<meta name="twitter:description" content="前言：去掉 win10 自动升级打开任务管理器 —— 找到服务 —— window update —— 修改属性为禁止升级 删除 onedrive1） 关于禁止 onedrive 自启动简单的就是在任务管理器的启动中禁用 onedrive 的启动项目就可以。2）关于组策略管理 运行 gpedit.msc，进入【计算机配置】-【管理模板】-【windows组件】-【onedrive】，右侧的三个选项">
+    
+        <link rel="alternate" type="application/atom+xml" title="Bharals&#39;s Blog" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/img/ico/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css?v=1.6.10">
+    <script>window.lazyScripts=[]</script>
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/ico/logo.png">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">bharals</h5>
+          <a href="mailto:bharals@163.com" title="bharals@163.com" class="mail">bharals@163.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://www.weibo.com/p/1005052808030190/home?from=page_100505&mod=TAB&is_all=1#place" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                微博
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">win10 安装优化</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">win10 安装优化</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2017-06-02T16:00:00.000Z" itemprop="datePublished" class="page-time">
+  2017-06-03
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/实用技巧/">实用技巧</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>目 录</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#前言："><span class="post-toc-text">前言：</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#去掉-win10-自动升级"><span class="post-toc-text">去掉 win10 自动升级</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#删除-onedrive"><span class="post-toc-text">删除 onedrive</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装-framework3-5"><span class="post-toc-text">安装 framework3.5</span></a></li></ol></li></ol>
+        </nav>
+    </aside>
+    
+<article id="post-skills/win10简单优化"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">win10 安装优化</h1>
+		<hr>
+        <div class="post-meta">
+            <time class="post-time" title="2017-06-03 00:00:00" datetime="2017-06-02T16:00:00.000Z"  itemprop="datePublished">2017-06-03</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/实用技巧/">实用技巧</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h1 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h1><h2 id="去掉-win10-自动升级"><a href="#去掉-win10-自动升级" class="headerlink" title="去掉 win10 自动升级"></a>去掉 win10 自动升级</h2><p>打开任务管理器 —— 找到服务 —— window update —— 修改属性为禁止升级</p>
+<h2 id="删除-onedrive"><a href="#删除-onedrive" class="headerlink" title="删除 onedrive"></a>删除 onedrive</h2><p>1） 关于禁止 onedrive 自启动简单的就是在任务管理器的启动中禁用 onedrive 的启动项目就可以。<br>2）关于组策略管理</p>
+<p>运行 gpedit.msc，进入【计算机配置】-【管理模板】-【windows组件】-【onedrive】，右侧的三个选项：<br>默认情况下，将文档保存到 OneDrive，选择禁用；<br>禁止使用 OneDrive 进行文件存储，选择启用<br>禁止 OneDrive 文件通过按流量的连接同步，选择启用。 </p>
+<p>如果是准备彻底删除 onedrive，组策略的这三项其实是不用理会的，因为 onedrive 都没有了，这个策略设置就毫无意义。这个策略可能适用于同步行为的设置。</p>
+<p>3）关于删除 onedrive 的程序卸载<br>卸载方法一：<br>运行输入 <code>%localappdata%\Microsoft\OneDrive\</code>,查看版本号，一般是一串数值的形式。<br>运行 CMD 命令，输入 <code>%localappdata%\Microsoft\OneDrive\XXXXXXXXXXXXXXX</code> (刚才查看到的那个版本号) <code>\OneDriveSetup /uninstall</code>，这个命令可以卸载掉大多的 onedrive 程序，剩余的可以自行删除（可能须要权限设置或者以管理员模式运行 cmd）  </p>
+<p>卸载方法二：<br>强制删除。直接通过取得权限的方式来删除 <code>%localappdata%\Microsoft \onedrive</code> 文件夹（取得权限以后，可能需要先在进程中关闭掉相应的 onedrive 进程，才能把文件夹删除干净）  </p>
+<p>其实要是操作到卸载这一步的话，第1）点和第2）点的操作就属于重复操作。  </p>
+<p>4）关于删除导航栏中的 onedrive。<br>卸载 onedrive 是不能清除导航栏里面的 onedrive，进入注册表：  <code>HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder</code> 把右侧的 Attributes 属性的值f080004d修改为f090004d。任务管理器中重启资源管理器后就生效了。  </p>
+<h2 id="安装-framework3-5"><a href="#安装-framework3-5" class="headerlink" title="安装 framework3.5"></a>安装 framework3.5</h2><p>把原版镜像里的 sxs 解压放在盘根目录下:<br>打开 cmd:<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">dism.exe <span class="regexp">/online /</span>enable-feature <span class="regexp">/featurename:NetFX3 /</span><span class="string">Source:</span><span class="string">I:</span>\sxs</div></pre></td></tr></table></figure></p>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2017-08-06T19:49:35.814Z" itemprop="dateUpdated">2017-08-07 03:49:35</time>
+</span><br>
+
+
+        
+        如果文章对您有用，欢迎点击下面赞赏，谢谢您的支持和鼓励！文章链接：<a href="/2017/06/03/skills/win10简单优化/" target="_blank" rel="external">http://ling007.cn/2017/06/03/skills/win10简单优化/</a>
+        
+    </div>
+    <footer>
+        <a href="http://ling007.cn">
+            <img src="/img/ico/logo.png" alt="bharals">
+            bharals
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/skill/">skill</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/win10/">win10</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/优化/">优化</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://ling007.cn/2017/06/03/skills/win10简单优化/&title=《win10 安装优化》 — Bharals's Blog&pic=http://ling007.cn/img/ico/logo.png" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://ling007.cn/2017/06/03/skills/win10简单优化/&title=《win10 安装优化》 — Bharals's Blog&source=just do it" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://ling007.cn/2017/06/03/skills/win10简单优化/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《win10 安装优化》 — Bharals's Blog&url=http://ling007.cn/2017/06/03/skills/win10简单优化/&via=http://ling007.cn" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://ling007.cn/2017/06/03/skills/win10简单优化/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/2017/06/03/skills/markdowm语言/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> 上一页</div>
+        <h4 class="title">Markdown 常用格式</h4>
+      </a>
+    </div>
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2017/06/01/js/nodejs的nmp与npm-cache目录修改/" id="post-next" class="post-nav-link">
+        <div class="tips">下一页 <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">nmp 与 npm-cache 目录修改</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢赞赏~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/reward/wechat.jpg" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/reward/wechat.jpg" data-alipay="/img/reward/alipay.jpg">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="bottom">
+        <p><span>bharals &copy; 2017</span></p>	
+		<span>
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+</span>
+		<p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>   
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://ling007.cn/2017/06/03/skills/win10简单优化/&title=《win10 安装优化》 — Bharals's Blog&pic=http://ling007.cn/img/ico/logo.png" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://ling007.cn/2017/06/03/skills/win10简单优化/&title=《win10 安装优化》 — Bharals's Blog&source=just do it" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://ling007.cn/2017/06/03/skills/win10简单优化/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《win10 安装优化》 — Bharals's Blog&url=http://ling007.cn/2017/06/03/skills/win10简单优化/&via=http://ling007.cn" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://ling007.cn/2017/06/03/skills/win10简单优化/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACM0lEQVR42u3awW6EMAxF0fn/n6ZSVyN1CPfZtCrOzWoEmcBhYSW2Xy88ju/x/vvsyvv19d2fM9fXbxgyZMh4LONYDv7qBLNebT1zvb4MGTJ2YNSCLHlw/2OhoCxDhgwZ4dJBoDwJ/TJkyJDRZ6xfK50jQ4YMGYRBNm21+WevmKb2bjuLy5Ah44GMWmHgb37/en1DhgwZ/55xhKO2TVxv6dJiw4cnypAhYzSj1gxBNn+k8aLzIdAOV4YMGSMYtePiOkHGw2st2fdhjgwZMkYz+A0eXnkzGXnddL4MGTLmMXhCn+/ByOeosdFZXIYMGeMYtQfwDd9dDRnBv2TIkDGOcVeIrDVV8IPxxQeVIUPGNow0fVYredYKCRdbVRkyZIxm8GMqv5u+VmdlGTJk7MDgrRWdroa0/BCn/2TIkLEZgyfOar/TRg20VZUhQ8ZoRj9Bf9e2r5bgkyFDxg6MftkyLVWmx11EkiFDxgYMlHbHB10SZPuNszJkyNiH0Tms1oJpGmrJAVuGDBmzGbwxggTBNCWXzpQhQ4YM8me+geOJfh52T6/LkCFjNIOXDHlQTlNv/Q8hQ4aM2YwjHGTpzoE2DfcX9Q0ZMmSMYPDBE/384JoeaNPQL0OGjEkM3tbAg2BatoxTbDz2y5AhYxCDPyZdgZQEOm0cMmTIkMHDaJr6T4ugKOkmQ4YMGWDR2qukhVIZMmTsyail+NMWsbRUGTxdhgwZoxmdo2Mnrd+ZHwNkyJDxVMYXQOaZryrfLBoAAAAASUVORK5CYII=" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+</script>
+
+<script src="/js/main.min.js?v=1.6.10"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="/js/search.min.js?v=1.6.10" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>

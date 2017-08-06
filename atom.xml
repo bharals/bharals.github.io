@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Bharals&#39;s Blog</title>
+  <subtitle>此处风景独好！</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://ling007.cn/"/>
+  <updated>2017-08-06T19:49:35.817Z</updated>
+  <id>http://ling007.cn/</id>
+  
+  <author>
+    <name>bharals</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java项目经验——程序员成长的钥匙</title>
+    <link href="http://ling007.cn/2017/08/07/%E5%B7%A5%E4%BD%9C%E7%BB%8F%E9%AA%8C/Java%E9%A1%B9%E7%9B%AE%E7%BB%8F%E9%AA%8C%E2%80%94%E2%80%94%E7%A8%8B%E5%BA%8F%E5%91%98%E6%88%90%E9%95%BF%E7%9A%84%E9%92%A5%E5%8C%99/"/>
+    <id>http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/</id>
+    <published>2017-08-06T19:51:13.867Z</published>
+    <updated>2017-08-06T19:49:35.817Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Java就是用来做项目的"><a href="#Java就是用来做项目的" class="headerlink" title="Java就是用来做项目的"></a>Java就是用来做项目的</h2><p>Java的主要应用领域就是企业级的项目开发！要想从事企业级的项目开发，你必须掌握如下要点：</p>
+<ol>
+<li>掌握项目开发的基本步骤</li>
+<li>具备极强的面向对象的分析与设计技巧</li>
+<li>掌握用例驱动、以架构为核心的主流开发方法</li>
+</ol>
+<p>没有人愿意自己一辈子就满足于掌握了一些代码实现的技巧，别人告诉你要实现什么，你就用代码堆砌来实现别人的要求！你必须学会从整个项目的角度去思考！你必须学会假如你是项目经理，你该如何思考！你必须学会假如你是架构师，你该如何思考！你必须掌握针对某个特定问题领域的分析方法！</p>
+<h2 id="关于基础知识"><a href="#关于基础知识" class="headerlink" title="关于基础知识"></a>关于基础知识</h2><p>你可以看看这些名词或知识点，看是否能说出个一二三四来。</p>
+<h3 id="JavaSE"><a href="#JavaSE" class="headerlink" title="JavaSE"></a>JavaSE</h3><ul>
+<li>基本语法、数据类型、操作符等：int、long、Integer、Long、if、else、for、while</li>
+<li>面向对象：class（类）、Object（对象）、instance（实例）、state（状态）、behavior（行为）、field、method、new、可见性（访问控制）、attribute、property、package、import、static variable、class variable、instance variable、heap、method area、stack、GC（垃圾回收）、override、overload、对象转型(casting)、多态、this、super</li>
+<li>异常处理：理解编译期错误和运行期错误的区别、Exception、RuntimeException、checked exception、unchecked exception、try、catch、finally、throw new XXXException、throws XXXException、异常处理的基本原则</li>
+<li>数组与集合：数组的定义和使用方法、Collection、List、Set、Map、ArrayList、HashSet、HashMap、Iterator、equals、hashCode、Comparable、Comparator</li>
+<li>常用类：String、intern、常量池、StringBuffer、java.util.Date、SimpleDateFormat、Regex（正则表达式）</li>
+<li>反射机制：Class、Method、Field、invoke、newInstance、BeanUtils（apache-commons）、PropertyUtils（apache-commons）</li>
+<li>输入输出流：InputStream、OutputStream、Reader、Writer、Adapter设计模式与原始流类、Decorator设计模式与包装流类、对象序列化和反序列化</li>
+<li>多线程：Thread、Runnable、sleep、wait、notify、synchronized、lock</li>
+</ul>
+<h3 id="Servlet和JSP"><a href="#Servlet和JSP" class="headerlink" title="Servlet和JSP"></a>Servlet和JSP</h3><ul>
+<li>HttpServlet、doGet、doPost、HttpServletRequest、HttpServletResponse、request.getParameter()、request.setAttribute()、request.getAttribute()、request.getSession()、ServletContext、Filter、web.xml、tomcat、forward与redirect、http协议的无状态性、cookie、JSP Scope Object、<c:out …="">、<c:foreach …=""></c:foreach></c:out></li>
+</ul>
+<h3 id="HTML与JavaScript"><a href="#HTML与JavaScript" class="headerlink" title="HTML与JavaScript"></a>HTML与JavaScript</h3><ul>
+<li>你需要能够理解常见的网页标签、理解在网页中引入JavaScript的方法、以及JavaScript的基本语法与使用方法</li>
+</ul>
+<p>以上，就是你进一步学习Java所必备的基本知识。特别是一些个专业术语和名词，看到这些名词，如果你像看到亲爹一样亲切，那么说明你对Java的基础知识就很熟悉了。</p>
+<h2 id="接下来是SSH"><a href="#接下来是SSH" class="headerlink" title="接下来是SSH"></a>接下来是SSH</h2><p>对于初学者来说，这三大框架被赋予了太多神秘的色彩，似乎它们是重中之重的知识！但是对于拥有多年Java开发经验的专业技术人员来说，对于那些Java牛人来说，却对这三大框架不太感冒！难道它们不重要吗？</p>
+<p>现在很多企业都在用这三大框架，所以很多企业也把掌握这三大框架作为招聘的必备条件。不可否认的是，也有很多大型企业没有用这三大框架，这些企业经过多年发展，自身已经有一定的技术积累，也形成了自己独特的技术框架体系。这三大框架既可以说很重要，也可以说不重要。</p>
+<p>说重要的原因在于：这三大框架对JavaEE开发中所存在的普遍的问题，提供了优美的解决方案，它们蕴含了这个行业中最NB的开发人员的努力和想法，所以，学习这三大框架，你就可以窥探到这些处于技术巅峰的牛人们究竟对一个问题是怎么想的，通过一种什么样的设计思路去解决问题的。所以，对于你来说，你没有太多项目开发的经验，经验是什么？经验就是你知道可能会遇到哪些问题，针对哪个问题可以有哪些解决方法，在某个情景下，哪种解决方法是较好的，哪种方法不太好等等！如果你没做过什么项目，你根本就不会去意识到你可能会遇到哪些问题，而这些问题往往又是非常关键的！解决得不好，会影响到你的程序的稳定性、可扩展性等等！三大框架就给初学者提供了了解你以后可能会遇到哪些问题，以及针对这些问题的解决方案！</p>
+<p>当你了解了这三大框架为什么是重要的，那么你也就能理解，为什么这三大框架也可以说是不重要的。如果你曾经开发过很多项目，你碰到了各种各样的问题，凭着你的技术功底，逐个击破了这些问题，在这些人眼里，三大框架（是不是还有N个框架？呵呵）都是浮云！</p>
+<p>你属于哪一种人呢？如果你没有太多项目开发经验，那么三大框架对于你来说就是非常重要的！而且，由此你也知道了该怎么去学这三大框架。对于三大框架的学习而言，着力点在于给你展示问题，并触发你自己主动的思考，我们鼓励你提出自己的想法，也许你的想法很白痴，但那毕竟是你自己的想法，如果你不知道牛人的想法，那你怎么知道自己的想法是很白痴的呢？在这种思想的碰撞过程中，你就会逐渐提高自己！所以，三大框架学完之后，你不应该只是看到一大堆配置文件，你不应该只是看到了一些Action，一些Service，一些映射文件，你不应该只知道session.save/update/delete，你不应该只是知道struts2中有一堆interceptor，你不应该只是看到一堆jar包……</p>
+<p>如果你只是知道拷贝一堆jar包，定义一系列配置文件之后，SSH三大框架就能够运行起来了，也可以给你干活了，那么，很悲哀的是，你仍然没有掌握三大框架的精粹！请你回答以下问题：</p>
+<h3 id="Struts2："><a href="#Struts2：" class="headerlink" title="Struts2："></a>Struts2：</h3><ul>
+<li>为什么每次请求都要创建一个Action对象？</li>
+<li>ModelDriven拦截器的配置中refreshModelBeforeResult解决了什么问题？</li>
+<li>为什么在web.xml中配置的StrutsPrepareAndExecuteFilter要过滤所有的请求？</li>
+<li>请你给我谈谈ValueStack？</li>
+<li>Struts2是如何实现MVC设计模式的？</li>
+</ul>
+<h3 id="Spring："><a href="#Spring：" class="headerlink" title="Spring："></a>Spring：</h3><ul>
+<li>你为什么要用Spring？</li>
+<li>请你聊一聊IOC/DI？ </li>
+<li>什么是声明式的事务管理？</li>
+<li>为什么要使用声明式的事务管理？</li>
+<li>Spring如何实现声明式的事务管理？ </li>
+<li>把spring和hibernate集成，定义事务管理特性的时候，为何要将除了添加、删除、更新操作之外的方法，即主要执行查询任务的方法定义为read-only？</li>
+</ul>
+<h3 id="Hibernate："><a href="#Hibernate：" class="headerlink" title="Hibernate："></a>Hibernate：</h3><ul>
+<li>请你谈谈你对OR映射的理解？</li>
+<li>很多人说Hibernate不适合大项目，性能有问题，你是如何理解的？</li>
+<li>Hibernate为什么一定要定义一个数据库标识？</li>
+<li>为什么Hibernate建议你的实体类实现hashCode和equals方法？</li>
+<li>谈谈你对Hibernate实体类中的数据库标识与数据库主键之间关系的认识？</li>
+<li>谈谈你对Hibernate关联映射与数据库外键之间关系的认识？</li>
+<li>调用session.save()方法，hibernate一定会发出insert语句吗？谈谈你的理解</li>
+<li>调用session.update()方法，hibernate一定会发出update语句吗？谈谈你的理解</li>
+<li>请你聊一下以下名词、概念或用法：lazy、lazy=”extra”、inverse、fetch、fetch=”join”、fetch=”subselect”、batch-size 配置了lazy=”true”一定会实现懒加载吗？</li>
+<li>请你谈谈Hibernate中的“N+1”问题</li>
+<li>请你谈谈Hibernate有哪些最佳实践？</li>
+</ul>
+<p>以上并非SSH中全部重点的问题，但它们能考察你能否灵活运用SSH框架！如果你能深刻理解这些问题，再配以合适的实战项目训练，你也会逐渐成为牛人！</p>
+<h2 id="最后是项目开发能力"><a href="#最后是项目开发能力" class="headerlink" title="最后是项目开发能力"></a>最后是项目开发能力</h2><p>不管你是学Java还是别的技术，你的根本目的在于给客户创造价值！否则，你下大力气学习的东西，随着技术的进步和更新，很快就会过时！所以，技术的核心在于用技术创造有价值的成果！也就是说，客户需要什么，你就要用技术把客户需要的东西给他造出来！一个公司之所以要用各种福利条件极力挽留你，是因为你能够给公司带来极高的利益！那么，你有什么可以给公司利用的呢？公司最看重你的哪方面的能力呢？</p>
+<p>做项目需要的能力很多，其中最核心最基础的就是建模能力（现在最主流的就是面向对象建模！）。什么是建模能力呢？</p>
+<p>我给大家一个面试题： 一个保险公司的保险卡管理模块：销售人员领取保险卡信息（保险卡数量、卡号、领取日期），然后直接销售给客户，销售完毕后，将保险卡信息录入保险公司系统内部（销售人员信息、购买人信息、购买的保险卡数量、卡号等），客户登录保险公司网站激活保险卡，需要填写（保险卡卡号、激活密码、被保险人信息、受益人信息）</p>
+<p>要求就是：如果这个模块交给你来做，你要怎么做？你要解决哪些问题？你可否画个图，给我描述一下你的想法是什么吗？</p>
+<p>这只是一个面试题而已，因为只有简单几句话，所以我把它放到这里，让大家感受一下所谓建模要解决什么问题。而业务领域的问题实在是太多了！也许一个几十上百页的需求文档才能把某个业务领域的问题描述清楚，而你的职责就是要把它们实现出来！</p>
+<p>某个公司要开发一个考勤管理系统，要求与现有的人力资源系统对接，你是主要的技术负责人，那么，你要做哪些工作呢？</p>
+<p>某ERP项目要实现一个排班管理模块，交给你去完成，你如何去完成呢？</p>
+<p>不要抱怨项目经理给你的信息太少（只有几句话），不要抱怨客户没有描述清楚他们的需求……你的价值就在于理顺所有的问题，用各种手段获得你想要的信息，按照一定的思路汇总，并在特定的时间里逐个解决它！</p>
+<p><strong>你应该意识到学Java不是一个坦克大战、一个网络飞车、一个CMS、一个DRP、一个OA那么简单，你不要沉迷于那些技术细节（虽然也是有必要的，但不要转牛角尖），不要满足于实现了CRUD式的项目需求（虽然这是基础中的基础），在你的前方，永远有一个目标在那里，需要你去努力追赶！</strong></p>
+<p>今后你将面对更加繁杂的需求，你<strong>学习项目的唯一目的，就是：学习如何将需求转化为实现，如何对需求进行分析，如何建立概念模型，如何理顺各种概念之间的关系，如何进行设计，如何选择合适的技术来实现你的设计方案，如何对你的实现进行测试，如何解决你所遇到的形形色色的问题（性能、需求变更等）</strong>。当你真正到公司里面从事了几年开发之后，你就会同意我的说法！</p>
+<p>利用Java找工作，需要的就是项目经验，项目经验就是理解项目开发的基本过程，理解项目的分析方法，理解项目的设计思路，理解项目的实现技巧，理解项目的测试方法，理解项目中各种问题的解决方案！！！</p>
+<p>所以，你该清楚你的目标了！</p>
+<blockquote>
+<p>原文链接：<a href="https://zhuanlan.zhihu.com/p/28003904" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/28003904</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Java就是用来做项目的&quot;&gt;&lt;a href=&quot;#Java就是用来做项目的&quot; class=&quot;headerlink&quot; title=&quot;Java就是用来做项目的&quot;&gt;&lt;/a&gt;Java就是用来做项目的&lt;/h2&gt;&lt;p&gt;Java的主要应用领域就是企业级的项目开发！要想从事企业级的
+    
+    </summary>
+    
+      <category term="经验总结" scheme="http://ling007.cn/categories/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="java" scheme="http://ling007.cn/tags/java/"/>
+    
+      <category term="经验总结" scheme="http://ling007.cn/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自律的人生，到底有多爽</title>
+    <link href="http://ling007.cn/2017/08/07/%E6%96%87%E7%AB%A0%E6%91%98%E5%BD%95/%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA%E7%94%9F%EF%BC%8C%E5%88%B0%E5%BA%95%E6%9C%89%E5%A4%9A%E7%88%BD/"/>
+    <id>http://ling007.cn/2017/08/07/文章摘录/自律的人生，到底有多爽/</id>
+    <published>2017-08-06T19:51:13.864Z</published>
+    <updated>2017-08-06T19:49:35.816Z</updated>
+    
+    <content type="html"><![CDATA[<p>文 | 阿何</p>
+<p>我上大学时有个同学W，和我一样来自偏远的农村，在当地当然是称王称霸无敌手的学霸，可到了清华和一干强手相比仍算基础薄弱。</p>
+<p>不过W和不少同学不一样，他几乎完美地将高三冲刺时期的自律和疯狂带到了大一——每天不到六点就起床，出去跑步吃饭然后上自习。除了上课外，几乎所有时间都泡在自习室或图书馆，每晚都呆到差不多十一点才回宿舍。那时清华宿舍实行管电制度，每晚十一点准时关灯停电，可这没难倒W，他买了两个大的充电型应急灯，停电后用应急灯学到凌晨才睡。</p>
+<p>这样的状态，W一坚持就是四年。说起来我是惭愧的，或许是没见过市面的缘故，大一就开始沉迷于上网和暗黑破坏神，上课能不去就不去，考试主要靠最后两周的冲刺。至于其他同学，虽然努力的仍占大多数，但多少都有“松了口气”的感觉，没了高考这道紧箍咒，生活还是很美好的。</p>
+<p>所以大学四年，我的成绩始终在班级中等位置徘徊，而W却一直勇猛精进，在年纪都算尖子生。我一直认为，论智商的话自己应该不输班上任何人，但到大三大四的时候，却悲哀地发现无论自己如何努力，都丝毫无法弥补已经拉开的差距了。</p>
+<hr>
+<p>工作后，也认识过几位如同W这般自律的人，大多数都在各自的岗位上干得非常出色。曾经和其中一位非常厉害的创业者交流过，他的某个观点至今记忆犹新。</p>
+<p>其实大家在智力上的差距远远没有我们想得那么大，主要的差距还是在投入的时间上。</p>
+<p>生活中当然会有绝顶聪明的人和真正的笨蛋，但按照正态分布的原理，这两个群体在整体中的占比都是非常小的，小到我们生活中很难看到。</p>
+<p>换句话说，其实百分之九十九的人都会落在“普通人”这个区间，彼此之间当然还会有差距，但几乎可以忽略不计。那些我们看到的聪明人，能力强悍者，并非天生就比我们聪明强悍，这种表现出来的差距，是日积月累的生活方式导致的。</p>
+<p>而决定每一个人成就高低最核心的因素，就是你到底花了多少时间在学习和积累上。</p>
+<p>有些人会刻意强调方法的重要性，可事实上方法的掌握并不困难，只要有心，A能学会的方法，B同样能够学会。即便方法和方法有优劣之分，但往往没法带来质的变化。</p>
+<p>以时间管理为例，掌握了好的时间使用及分配技巧，确实能一定程度提高工作效率，同样的时间处理更多的事务，但也绝对达不到一个小时干三个小时活的程度，一个小时能顶一个半小时都算很不错了。</p>
+<p>事实上，任何真正懂得时间管理的人，都会告诉你时间管理不会增加你的时间，即便提高你的工作效率也是非常有限的，它真正的意义在于教导你如何更好地管理自己，如何自律，从而能自觉、顺利地投入更多时间到有益的事情上。</p>
+<hr>
+<p>事实上，大众群体在积累这件事情上的投入少得令人吃惊。有人说要想成为一个领域的专家，你最少要在这上面投入一万个小时，这便是所谓的“一万小时定律”。其实，根本不需要一万个小时，如果你愿意在一个领域专注学习两个星期，就会惊讶地发现自己在这方面已经超过了身边90%的人。</p>
+<p>试想一下，如演讲、PPT、时间管理、读书方法、沟通方法，这些知识几乎对所有人都是非常重要的，但你身边又有几个人一个星期哪怕是花一个小时去学习它们？</p>
+<p>几乎所有人都在过着麻木不仁，得过且过的日子。白天他们忙于应付工作，晚上他们忙于应付家长里短。谁都知道要规划自己的人生，要做好日常的积累，可没几个人真正重视，只是说说而已。</p>
+<p>所以，有时候优秀真没你想得那么难，你只要坚持正常的努力就可以了。</p>
+<p>我曾经在网上开设过PPT培训班，很多学员学了几个星期就纷纷跑过来感谢，说自己做的PPT被领导、同事表扬了，说我教的方法太好了。我说我教的方法其实也没那么神奇，你们之所以进步这么快，是因为在这之前你们根本没花任何精力在PPT的学习上。</p>
+<p>也曾经和我的乒乓球教练交流过，在我看来他打球真的非常厉害。我曾经拿过大学系男子乒乓球单打冠军，按理来说水平也还过得去，可和他打一局能拿个三五分就算不错了。</p>
+<p>教练笑了笑说，你太高估我了，就我的天赋和水平，别说那些省队的专业运动员了，就算在一个普通市二队替补运动员眼中也是渣渣。其实你天赋比我好，我比你强只不过因为我坚持练了十几年而已。</p>
+<hr>
+<p>我们日复一日，孜孜不倦地在探寻各种方法，结交各种人脉，希望自己人生过得好一些。但其实，最大的秘诀其实掌握在每个人手中，那便是自律。</p>
+<p>所有人都严重低估了日复一日重复学习积累的巨大威力，不知道其实每个人都有成为“很厉害人”的潜力。我们宁可相信自己的平凡普通，然后在对生活的不满中喋喋不休，也不情愿哪怕每天花上一个小时去试一试。</p>
+<p>自律是一件看起来很苦逼的事情，它意味着数十年如一日的坚持，把自己过得像个机器人。但对真正自律的人来说，这样的人生爽翻了。</p>
+<p>因为你会发现，自己无需是个天才，也可以变得很厉害。无需依靠关系，也可以因为出色的能力得到重用。你可以不必焦虑，因为命运把控在你手中，你可以一天一天接近自己的目标。</p>
+<p>你需要做的，只是每一天都往前挪动一小步，仅此而已。</p>
+<blockquote>
+<p>作者：阿何<br>链接：<a href="http://www.jianshu.com/p/a0df1da9d8a7" target="_blank" rel="external">http://www.jianshu.com/p/a0df1da9d8a7</a><br>來源：简书<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;文 | 阿何&lt;/p&gt;
+&lt;p&gt;我上大学时有个同学W，和我一样来自偏远的农村，在当地当然是称王称霸无敌手的学霸，可到了清华和一干强手相比仍算基础薄弱。&lt;/p&gt;
+&lt;p&gt;不过W和不少同学不一样，他几乎完美地将高三冲刺时期的自律和疯狂带到了大一——每天不到六点就起床，出去跑步吃饭然后
+    
+    </summary>
+    
+      <category term="文章摘录" scheme="http://ling007.cn/categories/%E6%96%87%E7%AB%A0%E6%91%98%E5%BD%95/"/>
+    
+    
+      <category term="文章摘录" scheme="http://ling007.cn/tags/%E6%96%87%E7%AB%A0%E6%91%98%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java 知识点图解</title>
+    <link href="http://ling007.cn/2017/08/07/java/java%E7%9F%A5%E8%AF%86%E7%82%B9%E5%9B%BE%E8%A7%A3/"/>
+    <id>http://ling007.cn/2017/08/07/java/java知识点图解/</id>
+    <published>2017-08-06T19:51:13.853Z</published>
+    <updated>2017-08-06T19:49:35.810Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="java-基础图"><a href="#java-基础图" class="headerlink" title="java 基础图"></a>java 基础图</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/img/java/java-f.png" alt="java 基础图" title="">
+                </div>
+                <div class="image-caption">java 基础图</div>
+            </figure>
+<h2 id="java-API-图"><a href="#java-API-图" class="headerlink" title="java API 图"></a>java API 图</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/img/java/java-api.png" alt="java API 图" title="">
+                </div>
+                <div class="image-caption">java API 图</div>
+            </figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;java-基础图&quot;&gt;&lt;a href=&quot;#java-基础图&quot; class=&quot;headerlink&quot; title=&quot;java 基础图&quot;&gt;&lt;/a&gt;java 基础图&lt;/h2&gt;&lt;figure class=&quot;image-bubble&quot;&gt;
+                &lt;di
+    
+    </summary>
+    
+      <category term="java" scheme="http://ling007.cn/categories/java/"/>
+    
+    
+      <category term="java" scheme="http://ling007.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git生成SSH</title>
+    <link href="http://ling007.cn/2017/06/05/git/git%E7%94%9F%E6%88%90ssh/"/>
+    <id>http://ling007.cn/2017/06/05/git/git生成ssh/</id>
+    <published>2017-06-04T16:00:00.000Z</published>
+    <updated>2017-08-06T20:55:50.417Z</updated>
+    
+    <content type="html"><![CDATA[<p>Git 是分布式的代码管理工具，远程的代码管理是基于 SSH 的，所以要使用远程的 Git 则需要 SSH 的配置。<br>github 的 SSH 配置如下：</p>
+<h2 id="一-、设置Git的user-name和email"><a href="#一-、设置Git的user-name和email" class="headerlink" title="一 、设置Git的user name和email"></a>一 、设置Git的user name和email</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git config --global user.name <span class="string">"zzzn"</span></div><div class="line">$ git config --global user.email <span class="string">"xxxp@gmail.com"</span></div></pre></td></tr></table></figure>
+<h2 id="二、生成SSH密钥过程"><a href="#二、生成SSH密钥过程" class="headerlink" title="二、生成SSH密钥过程"></a>二、生成SSH密钥过程</h2><ul>
+<li>查看是否已经有了 ssh 密钥：cd ~/.ssh。如果没有密钥则不会有此文件夹，有则备份删除</li>
+<li>生成密钥：</li>
+</ul>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ </span>ssh-keygen -t rsa -C “xxx<span class="variable">@gmail</span>.com”</div></pre></td></tr></table></figure>
+<p>按3个回车，密码为空。</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Your identification has been saved <span class="keyword">in</span> <span class="regexp">/home/</span>tekkub<span class="regexp">/.ssh/</span>id_rsa.</div><div class="line">Your <span class="keyword">public</span> key has been saved <span class="keyword">in</span> <span class="regexp">/home/</span>tekkub<span class="regexp">/.ssh/</span>id_rsa.pub.</div><div class="line">The key fingerprint <span class="string">is:</span></div><div class="line">………………</div></pre></td></tr></table></figure>
+<p>最后得到了两个文件：id_rsa 和 id_rsa.pub</p>
+<ul>
+<li>添加密钥到 ssh：ssh-add 文件名 需要之前输入密码。</li>
+<li>在 github 上添加 ssh 密钥，这要添加的是 “id_rsa.pub” 里面的公钥。打开<a href="https://github.com/" target="_blank" rel="external">https://github.com/</a> ，登陆，然后添加 ssh。</li>
+<li>测试：ssh git@github.com</li>
+</ul>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">The</span> <span class="selector-tag">authenticity</span> <span class="selector-tag">of</span> <span class="selector-tag">host</span> ‘<span class="selector-tag">github</span><span class="selector-class">.com</span> (<span class="number">207.97</span>.<span class="number">227.239</span>)’ <span class="selector-tag">can</span>’<span class="selector-tag">t</span> <span class="selector-tag">be</span> <span class="selector-tag">established</span>.</div><div class="line"><span class="selector-tag">RSA</span> <span class="selector-tag">key</span> <span class="selector-tag">fingerprint</span> <span class="selector-tag">is</span> <span class="selector-tag">16</span><span class="selector-pseudo">:27</span><span class="selector-pseudo">:ac</span><span class="selector-pseudo">:a5</span><span class="selector-pseudo">:76</span><span class="selector-pseudo">:28</span><span class="selector-pseudo">:2d</span><span class="selector-pseudo">:36</span><span class="selector-pseudo">:63</span><span class="selector-pseudo">:1b</span><span class="selector-pseudo">:56</span><span class="selector-pseudo">:4d</span><span class="selector-pseudo">:eb</span><span class="selector-pseudo">:df</span><span class="selector-pseudo">:a6</span><span class="selector-pseudo">:48.</span></div><div class="line"><span class="selector-tag">Are</span> <span class="selector-tag">you</span> <span class="selector-tag">sure</span> <span class="selector-tag">you</span> <span class="selector-tag">want</span> <span class="selector-tag">to</span> <span class="selector-tag">continue</span> <span class="selector-tag">connecting</span> (yes/no)? `<span class="selector-tag">yes</span>`</div><div class="line"><span class="selector-tag">Warning</span>: <span class="selector-tag">Permanently</span> <span class="selector-tag">added</span> ‘<span class="selector-tag">github</span><span class="selector-class">.com</span>,<span class="selector-tag">207</span><span class="selector-class">.97</span><span class="selector-class">.227</span><span class="selector-class">.239</span>′ (RSA) <span class="selector-tag">to</span> <span class="selector-tag">the</span> <span class="selector-tag">list</span> <span class="selector-tag">of</span> <span class="selector-tag">known</span> <span class="selector-tag">hosts</span>.</div><div class="line"><span class="selector-tag">ERROR</span>: <span class="selector-tag">Hi</span> <span class="selector-tag">tekkub</span>! <span class="selector-tag">You</span>’<span class="selector-tag">ve</span> <span class="selector-tag">successfully</span> <span class="selector-tag">authenticated</span>, <span class="selector-tag">but</span> <span class="selector-tag">GitHub</span> <span class="selector-tag">does</span> <span class="selector-tag">not</span> <span class="selector-tag">provide</span> <span class="selector-tag">shell</span> <span class="selector-tag">access</span></div><div class="line"><span class="selector-tag">Connection</span> <span class="selector-tag">to</span> <span class="selector-tag">github</span><span class="selector-class">.com</span> <span class="selector-tag">closed</span>.</div></pre></td></tr></table></figure>
+<h2 id="三、开始使用github"><a href="#三、开始使用github" class="headerlink" title="三、开始使用github"></a>三、开始使用github</h2><ul>
+<li>获取源码：</li>
+</ul>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="keyword">clone</span> <span class="title">xxx</span></div></pre></td></tr></table></figure>
+<ul>
+<li>这样你的机器上就有一个 repo 了。</li>
+<li>git 于 svn 所不同的是 git 是分布式的，没有服务器概念。所有的人的机器上都有一个 repo，每次提交都是给自己机器的 repo 仓库初始化：</li>
+</ul>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">git init</span></div></pre></td></tr></table></figure>
+<p>生成快照并存入项目索引：</p>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git <span class="keyword">add</span><span class="bash"></span></div></pre></td></tr></table></figure>
+<p>文件,还有 git rm,git mv 等等…<br>项目索引提交：</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">git commit</span></div></pre></td></tr></table></figure>
+<ul>
+<li>协作编程：将本地 repo 于远程的 origin 的 repo 合并，推送本地更新到远程：</li>
+</ul>
+<figure class="highlight maxima"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">push</span> <span class="built_in">origin</span> master</div></pre></td></tr></table></figure>
+<ul>
+<li>更新远程更新到本地：</li>
+</ul>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git pull origin <span class="literal">master</span></div></pre></td></tr></table></figure>
+<ul>
+<li>补充：</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//添加远端 repo：</span></div><div class="line">$ git remote add upstream xxx</div><div class="line"><span class="comment">//重命名远端 repo：</span></div><div class="line">$ xxx 为 “upstream”</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Git 是分布式的代码管理工具，远程的代码管理是基于 SSH 的，所以要使用远程的 Git 则需要 SSH 的配置。&lt;br&gt;github 的 SSH 配置如下：&lt;/p&gt;
+&lt;h2 id=&quot;一-、设置Git的user-name和email&quot;&gt;&lt;a href=&quot;#一-、设置Git
+    
+    </summary>
+    
+      <category term="git" scheme="http://ling007.cn/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://ling007.cn/tags/git/"/>
+    
+      <category term="ssh" scheme="http://ling007.cn/tags/ssh/"/>
+    
+      <category term="skills" scheme="http://ling007.cn/tags/skills/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建hexo博客遇到的坑</title>
+    <link href="http://ling007.cn/2017/06/03/hexo/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
+    <id>http://ling007.cn/2017/06/03/hexo/搭建hexo博客遇到的坑/</id>
+    <published>2017-06-03T13:59:16.000Z</published>
+    <updated>2017-08-06T20:57:44.089Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前些时间总想着做自己的一个博客网站，可是总是拖啊拖的，一直到最近几天才着手做。可是啊，由于自己水平有限，对前端的知识又为之甚少，犹如瞎子过河啊，其中的艰辛可以说能都写一部武侠小说了。呵呵，玩笑就不多说了，下面我就总结下自己在搭建博客的时候遇到了哪些坑。<br><a id="more"></a></p>
+<h2 id="搭建hexo环境"><a href="#搭建hexo环境" class="headerlink" title="搭建hexo环境"></a>搭建hexo环境</h2><ul>
+<li>问题一：npm 源无法下载</li>
+</ul>
+<p>由于我大天朝有着厚厚的一堵墙，并且老子的VPN无故被封了，所以没有办法走动。因此必须更换npm源。国内有几个npm镜像，像’阿里’的。具体怎么安装：<a href="http://ling007.cn/2017/06/01/nodejs%E7%9A%84nmp%E4%B8%8Enpm-cache%E7%9B%AE%E5%BD%95%E4%BF%AE%E6%94%B9/">nmp与npm-cache目录修改</a></p>
+<ul>
+<li>问题二：主题选择</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;前些时间总想着做自己的一个博客网站，可是总是拖啊拖的，一直到最近几天才着手做。可是啊，由于自己水平有限，对前端的知识又为之甚少，犹如瞎子过河啊，其中的艰辛可以说能都写一部武侠小说了。呵呵，玩笑就不多说了，下面我就总结下自己在搭建博客的时候遇到了哪些坑。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://ling007.cn/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://ling007.cn/tags/hexo/"/>
+    
+      <category term="blog" scheme="http://ling007.cn/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 常用格式</title>
+    <link href="http://ling007.cn/2017/06/03/skills/markdowm%E8%AF%AD%E8%A8%80/"/>
+    <id>http://ling007.cn/2017/06/03/skills/markdowm语言/</id>
+    <published>2017-06-02T16:00:00.000Z</published>
+    <updated>2017-08-06T19:49:35.813Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。<br><a id="more"></a></p>
+<h2 id="标题格式"><a href="#标题格式" class="headerlink" title="标题格式"></a>标题格式</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#</span><span class="bash"> 标题１</span></div><div class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 标题２</span></span></div><div class="line"><span class="meta">#</span><span class="bash"><span class="comment">##　标题３</span></span></div></pre></td></tr></table></figure>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>如果你需要引用一小段别处的句子，那么就要用引用的格式。<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&gt;</span><span class="bash"></span></div></pre></td></tr></table></figure></p>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby"> </span></div><div class="line"><span class="ruby"><span class="number">1</span>.</span></div></pre></td></tr></table></figure>
+<h2 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h2><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby"> [ ] </span></div><div class="line"><span class="ruby">- [x]</span></div></pre></td></tr></table></figure>
+<h2 id="链接和图片"><a href="#链接和图片" class="headerlink" title="链接和图片"></a>链接和图片</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[<span class="string">link</span>](<span class="link">http://ling007.cn/</span>)</div><div class="line">![<span class="string">image</span>](<span class="link">http://</span>)</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="实用技巧" scheme="http://ling007.cn/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="skill" scheme="http://ling007.cn/tags/skill/"/>
+    
+      <category term="markdowm" scheme="http://ling007.cn/tags/markdowm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>win10 安装优化</title>
+    <link href="http://ling007.cn/2017/06/03/skills/win10%E7%AE%80%E5%8D%95%E4%BC%98%E5%8C%96/"/>
+    <id>http://ling007.cn/2017/06/03/skills/win10简单优化/</id>
+    <published>2017-06-02T16:00:00.000Z</published>
+    <updated>2017-08-06T19:49:35.814Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h1><h2 id="去掉-win10-自动升级"><a href="#去掉-win10-自动升级" class="headerlink" title="去掉 win10 自动升级"></a>去掉 win10 自动升级</h2><p>打开任务管理器 —— 找到服务 —— window update —— 修改属性为禁止升级</p>
+<h2 id="删除-onedrive"><a href="#删除-onedrive" class="headerlink" title="删除 onedrive"></a>删除 onedrive</h2><p>1） 关于禁止 onedrive 自启动简单的就是在任务管理器的启动中禁用 onedrive 的启动项目就可以。<br>2）关于组策略管理</p>
+<p>运行 gpedit.msc，进入【计算机配置】-【管理模板】-【windows组件】-【onedrive】，右侧的三个选项：<br>默认情况下，将文档保存到 OneDrive，选择禁用；<br>禁止使用 OneDrive 进行文件存储，选择启用<br>禁止 OneDrive 文件通过按流量的连接同步，选择启用。 </p>
+<p>如果是准备彻底删除 onedrive，组策略的这三项其实是不用理会的，因为 onedrive 都没有了，这个策略设置就毫无意义。这个策略可能适用于同步行为的设置。</p>
+<p>3）关于删除 onedrive 的程序卸载<br>卸载方法一：<br>运行输入 <code>%localappdata%\Microsoft\OneDrive\</code>,查看版本号，一般是一串数值的形式。<br>运行 CMD 命令，输入 <code>%localappdata%\Microsoft\OneDrive\XXXXXXXXXXXXXXX</code> (刚才查看到的那个版本号) <code>\OneDriveSetup /uninstall</code>，这个命令可以卸载掉大多的 onedrive 程序，剩余的可以自行删除（可能须要权限设置或者以管理员模式运行 cmd）  </p>
+<p>卸载方法二：<br>强制删除。直接通过取得权限的方式来删除 <code>%localappdata%\Microsoft \onedrive</code> 文件夹（取得权限以后，可能需要先在进程中关闭掉相应的 onedrive 进程，才能把文件夹删除干净）  </p>
+<p>其实要是操作到卸载这一步的话，第1）点和第2）点的操作就属于重复操作。  </p>
+<p>4）关于删除导航栏中的 onedrive。<br>卸载 onedrive 是不能清除导航栏里面的 onedrive，进入注册表：  <code>HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder</code> 把右侧的 Attributes 属性的值f080004d修改为f090004d。任务管理器中重启资源管理器后就生效了。  </p>
+<h2 id="安装-framework3-5"><a href="#安装-framework3-5" class="headerlink" title="安装 framework3.5"></a>安装 framework3.5</h2><p>把原版镜像里的 sxs 解压放在盘根目录下:<br>打开 cmd:<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">dism.exe <span class="regexp">/online /</span>enable-feature <span class="regexp">/featurename:NetFX3 /</span><span class="string">Source:</span><span class="string">I:</span>\sxs</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h1&gt;&lt;h2 id=&quot;去掉-win10-自动升级&quot;&gt;&lt;a href=&quot;#去掉-win10-自动升级&quot; class=&quot;headerlink&quot; ti
+    
+    </summary>
+    
+      <category term="实用技巧" scheme="http://ling007.cn/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="win10" scheme="http://ling007.cn/tags/win10/"/>
+    
+      <category term="优化" scheme="http://ling007.cn/tags/%E4%BC%98%E5%8C%96/"/>
+    
+      <category term="skill" scheme="http://ling007.cn/tags/skill/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nmp 与 npm-cache 目录修改</title>
+    <link href="http://ling007.cn/2017/06/01/js/nodejs%E7%9A%84nmp%E4%B8%8Enpm-cache%E7%9B%AE%E5%BD%95%E4%BF%AE%E6%94%B9/"/>
+    <id>http://ling007.cn/2017/06/01/js/nodejs的nmp与npm-cache目录修改/</id>
+    <published>2017-06-01T05:09:27.000Z</published>
+    <updated>2017-08-06T19:49:35.811Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h1><p>nmp 与 npm-cache 目录修改<br>下载安装：<a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a><br>默认安装完 node.js 后会自己安装 npm，通过 npm 下载全局模块默认安装到 <code>C:\Users\wangyc\AppData\Roaming</code> 目录下，主要有两个文件夹：<code>npm</code>、<code>npm-cache</code> </p>
+<p>npm：下载的具体模块<br>npm-cache：npm 的缓存文件<br>如果需要修改此两个文件的目录，甚至将将这两个文件拷贝到无法连网的机器上呢？</p>
+<p>使用命令：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm config set prefix <span class="string">"I:\Program Files\npm"</span> npm config set cache <span class="string">"I:\Program Files\npm-cache"</span></div></pre></td></tr></table></figure>
+<p>由于 node 全局模块大多数都是提供命令行访问的，所以还要把 <code>D:\nodejs\npm</code> 加到系统 PATH 里面，注意同时需要将以前的默认路径从 PATH 中删除。</p>
+<h2 id="修改npm库"><a href="#修改npm库" class="headerlink" title="修改npm库"></a>修改npm库</h2><p>淘宝针对国内下载 npm 库缓慢的问题，使用建立自己的 cnpm 库，可以很方便使用在公司内部使用。<br>地址：<a href="http://npm.taobao.org/" target="_blank" rel="external">http://npm.taobao.org/</a><br>使用淘宝的 NPM 库镜像</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g cnpm --registry=http:<span class="comment">//registry.npm.taobao.org</span></div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h1&gt;&lt;p&gt;nmp 与 npm-cache 目录修改&lt;br&gt;下载安装：&lt;a href=&quot;https://nodejs.org/en/&quot; targ
+    
+    </summary>
+    
+      <category term="nodejs" scheme="http://ling007.cn/categories/nodejs/"/>
+    
+    
+      <category term="nodejs" scheme="http://ling007.cn/tags/nodejs/"/>
+    
+      <category term="npm" scheme="http://ling007.cn/tags/npm/"/>
+    
+      <category term="npm-cache" scheme="http://ling007.cn/tags/npm-cache/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github+page+hexo 搭建个人博客</title>
+    <link href="http://ling007.cn/2017/06/01/hexo/github+page+hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://ling007.cn/2017/06/01/hexo/github+page+hexo搭建个人博客/</id>
+    <published>2017-05-31T16:00:00.000Z</published>
+    <updated>2017-08-06T20:57:51.882Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>github page 是 github 的一项静态页面服务，自从这功能上线以来很多人利用这个功能来制作项目的介绍站点，但是也有很多人利用这个功能来制作自己的博客网站。只要利用 hexo 就能够很好地搭建自己的博客平台，而且 hexo 下拥有很多的主题插件让自己的博客添加更多的功能。而且 github page 提供了域名绑定，只要在 github page 设置中绑定自己的网站域名，就可以用自己的域名来访问这个博客了。</p>
+<a id="more"></a>
+<h2 id="github创建项目"><a href="#github创建项目" class="headerlink" title="github创建项目"></a>github创建项目</h2><p>在 github 上创建 yourname.github.io 的仓库</p>
+<h2 id="安装-hexo"><a href="#安装-hexo" class="headerlink" title="安装 hexo"></a>安装 hexo</h2><h3 id="安装-node-js"><a href="#安装-node-js" class="headerlink" title="安装 node.js"></a>安装 node.js</h3><ul>
+<li>node.js 官方下载地址 <a href="https://nodejs.org/en/" title="nodejs" target="_blank" rel="external">https://nodejs.org/en/ </a></li>
+</ul>
+<h3 id="设置npm淘宝镜像站"><a href="#设置npm淘宝镜像站" class="headerlink" title="设置npm淘宝镜像站"></a>设置npm淘宝镜像站</h3><ul>
+<li>npm 默认的源的下载速度可能很慢，建议使用淘宝镜像替换。</li>
+<li>执行下面的命令，将npm的源设置成淘宝镜像站。</li>
+</ul>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm<span class="built_in"> config </span><span class="builtin-name">set</span> registry <span class="string">"https://registry.npm.taobao.org"</span></div></pre></td></tr></table></figure>
+<h3 id="执行以下命令安装hexo。"><a href="#执行以下命令安装hexo。" class="headerlink" title="执行以下命令安装hexo。"></a>执行以下命令安装hexo。</h3><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 安装hexo</span></div><div class="line">npm <span class="keyword">install </span>hexo-cli g</div><div class="line"><span class="comment"># 初始化博客文件夹</span></div><div class="line">hexo init <span class="keyword">blog</span></div><div class="line"><span class="keyword"># </span>切换到该路径</div><div class="line">cd <span class="keyword">blog</span></div><div class="line"><span class="keyword"># </span>安装 hexo 的扩展插件</div><div class="line">npm <span class="keyword">install</span></div><div class="line"><span class="keyword"># </span>安装其它插件</div><div class="line">npm <span class="keyword">install </span>hexo-server --save</div><div class="line">npm <span class="keyword">install </span>hexo-admin --save</div><div class="line">npm <span class="keyword">install </span>hexo-generator-archive --save</div><div class="line">npm <span class="keyword">install </span>hexo-generator-feed --save</div><div class="line">npm <span class="keyword">install </span>hexo-generator-search --save</div><div class="line">npm <span class="keyword">install </span>hexo-generator-tag --save</div><div class="line">npm <span class="keyword">install </span>hexo-deployer-git --save</div><div class="line">npm <span class="keyword">install </span>hexo-generator-sitemap --save</div></pre></td></tr></table></figure>
+<h1 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h1><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>编辑站点配置文件，hexo/_config.yml。</p>
+<h2 id="启用主题"><a href="#启用主题" class="headerlink" title="启用主题"></a>启用主题</h2><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">theme:</span> indigo</div></pre></td></tr></table></figure>
+<h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><p>为了得到更好的使用体验，以下内容请务必填写完整，因为这些内容会在主题中得到展示。更多</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">title:</span> your title</div><div class="line"><span class="symbol">subtitle:</span> your subtitle</div><div class="line"><span class="symbol">description:</span> your description</div><div class="line"><span class="symbol">keywords:</span> your keywords</div><div class="line"><span class="symbol">author:</span> your name</div><div class="line"><span class="symbol">email:</span> your email</div><div class="line"><span class="symbol">url:</span> your site url</div></pre></td></tr></table></figure>
+<h2 id="feed配置"><a href="#feed配置" class="headerlink" title="feed配置"></a>feed配置</h2><p>参考 hexo-generator-feed<br><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">feed:</div><div class="line">  <span class="keyword">type</span>: atom</div><div class="line">  path: atom.xml</div><div class="line">  limit: <span class="number">0</span></div></pre></td></tr></table></figure></p>
+<h2 id="jsonContent配置"><a href="#jsonContent配置" class="headerlink" title="jsonContent配置"></a>jsonContent配置</h2><p>为了节约资源，可以对 jsonContent 插件生成的数据字段进行配置，减少数据文件大小。参考 hexo-generator-json-content<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="attr">jsonContent:</span></div><div class="line"><span class="attr">  meta:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  pages:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  posts:</span></div><div class="line"><span class="attr">    title:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    date:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    path:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    text:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    raw:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    content:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    slug:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    updated:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    comments:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    link:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    permalink:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    excerpt:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    categories:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    tags:</span> <span class="literal">true</span></div></pre></td></tr></table></figure></p>
+<h2 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h2><p>编辑主题配置文件，themes/indigo/_config.yml。</p>
+<h2 id="左侧菜单"><a href="#左侧菜单" class="headerlink" title="左侧菜单"></a>左侧菜单</h2><p>默认配置如下<br><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">menu</span>:</div><div class="line">  <span class="attribute">home</span>:</div><div class="line">    <span class="attribute">text</span>: 主页</div><div class="line">    <span class="attribute">url</span>: /</div><div class="line">  <span class="attribute">archives</span>:</div><div class="line">    <span class="attribute">url</span>: /archives</div><div class="line">  <span class="attribute">tags</span>:</div><div class="line">    <span class="attribute">url</span>: /tags</div><div class="line">  <span class="attribute">github</span>:</div><div class="line">    <span class="attribute">url</span>: <span class="attribute">https</span>:<span class="comment">//github.com/yscoder</span></div><div class="line">    <span class="attribute">target</span>: _blank</div><div class="line">  <span class="attribute">weibo</span>:</div><div class="line">    <span class="attribute">url</span>: <span class="attribute">http</span>:<span class="comment">//www.weibo.com/ysweb</span></div><div class="line">    <span class="attribute">target</span>: _blank</div><div class="line">  <span class="attribute">link</span>:</div><div class="line">    <span class="attribute">text</span>: 测试</div><div class="line">    <span class="attribute">url</span>: /</div></pre></td></tr></table></figure></p>
+<p>添加新菜单项时，在 menu 下增加子属性即可。属性说明如下：<br><figure class="highlight dts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">menu:</span></div><div class="line"><span class="symbol"> link:</span>               <span class="meta"># fontawesome图标，省略前缀，本主题前缀为 icon-，必须</span></div><div class="line"><span class="symbol">   text:</span> About       <span class="meta"># 菜单显示的文字，如果省略即默认与图标一致，首字母会转大写</span></div><div class="line"><span class="symbol">   url:</span> /about       <span class="meta"># 链接，绝对或相对路径，必须</span></div><div class="line"><span class="symbol">   target:</span> _blank    <span class="meta"># 是否跳出，省略则在当前页面打开</span></div><div class="line">fontawesome 图标已集成到主题中，你可以到 这个页面 挑选合适的图标。</div></pre></td></tr></table></figure></p>
+<h2 id="rss"><a href="#rss" class="headerlink" title="rss"></a>rss</h2><p>6.x 后移除该配置项，使用站点配置中的 feed 作为统一配置。<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">rss:</span> /atom.xml</div></pre></td></tr></table></figure></p>
+<h2 id="favicon"><a href="#favicon" class="headerlink" title="favicon"></a>favicon</h2><p>站点 logo，显示在浏览器当前标签页左上角。<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">favicon:</span> /favicon.ico</div></pre></td></tr></table></figure></p>
+<h2 id="头像"><a href="#头像" class="headerlink" title="头像"></a>头像</h2><p>位于左侧菜单上方<br><figure class="highlight dts"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">avatar:</span> <span class="meta-keyword">/img/</span>logo.jpg</div></pre></td></tr></table></figure></p>
+<h2 id="email"><a href="#email" class="headerlink" title="email"></a>email</h2><p>头像下方<br><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">email</span>: <span class="number">634206017</span><span class="variable">@qq</span>.com</div></pre></td></tr></table></figure></p>
+<h2 id="color"><a href="#color" class="headerlink" title="color"></a>color</h2><p>设置 Android L Chrome 浏览器状态栏颜色，不需要可去除此项或设为 false。<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">color:</span> <span class="string">'#3F51B5'</span></div></pre></td></tr></table></figure></p>
+<h2 id="标签页-old"><a href="#标签页-old" class="headerlink" title="标签页 (old)"></a>标签页 (old)</h2><p>配置标签页标题<br><figure class="highlight subunit"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">tags:</span></div><div class="line">  title: 标签</div></pre></td></tr></table></figure></p>
+<h2 id="页面标题-card-theme"><a href="#页面标题-card-theme" class="headerlink" title="页面标题 (card theme)"></a>页面标题 (card theme)</h2><p>自定义归档、标签、分类页的大标题。<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">tags_title:</span> Tags</div><div class="line"><span class="symbol">archives_title:</span> Archives</div><div class="line"><span class="symbol">categories_title:</span> Categories</div></pre></td></tr></table></figure></p>
+<h2 id="文章摘要"><a href="#文章摘要" class="headerlink" title="文章摘要"></a>文章摘要</h2><p>可以在 Markdown 文件中加 以分割摘要与文章正文。未设置时，按 excerpt_length 设置截取。<br>文章摘要渲染方式: 为 true 时将渲染为 html，否则为文本<br><!--more--><br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">excerpt_render:</span> <span class="literal">false</span></div></pre></td></tr></table></figure></p>
+<p>截断长度<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">excerpt_length:</span> <span class="number">200</span></div></pre></td></tr></table></figure></p>
+<p>文字正文页链接文字<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">excerpt_link:</span> 阅读全文...</div></pre></td></tr></table></figure></p>
+<h2 id="mathjax"><a href="#mathjax" class="headerlink" title="mathjax"></a>mathjax</h2><p>开启后，使你的站点支持公式渲染，by mathjax。 请按需开启，因为此项需要加载额外的 js 文件。<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">mathjax:</span> <span class="literal">false</span></div></pre></td></tr></table></figure></p>
+<h2 id="分享"><a href="#分享" class="headerlink" title="分享"></a>分享</h2><p>文章分享开关，by jiathis-api。<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">share:</span> <span class="literal">true</span></div></pre></td></tr></table></figure></p>
+<h2 id="文章打赏"><a href="#文章打赏" class="headerlink" title="文章打赏"></a>文章打赏</h2><p>默认开启<br><figure class="highlight dts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">reward:</span></div><div class="line"><span class="symbol">  title:</span> 谢谢大爷~             <span class="meta">#显示的文字</span></div><div class="line"><span class="symbol">  wechat:</span> <span class="meta-keyword">/img/</span>wechat.jpg     <span class="meta">#微信，关闭设为 false</span></div><div class="line"><span class="symbol">  alipay:</span> <span class="meta-keyword">/img/</span>alipay.jpg     <span class="meta">#支付宝，关闭设为 false</span></div></pre></td></tr></table></figure></p>
+<p>此外在 crad theme 中，可以通过在 markdown 头部添加 reward: false 来控制某些不想开启打赏的页面。</p>
+<p>关闭</p>
+<p>reward: false<br>二维码请自行从微信、支付宝中下载。当两个二维码同时存在时，为保持显示效果的一致性，注意截图时的边框留白保持一致。必要时可借助PS等图片处理工具进行图片大小裁剪、压缩等。</p>
+<h2 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a>站内搜索</h2><p>是否开启搜索<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">search:</span> <span class="literal">true</span></div></pre></td></tr></table></figure></p>
+<h2 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h2><p>开启后，文章页在大屏下会隐藏左侧菜单，专注阅读。<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">hideMenu:</span> <span class="literal">true</span></div></pre></td></tr></table></figure></p>
+<h2 id="Toc"><a href="#Toc" class="headerlink" title="Toc"></a>Toc</h2><p>开启文章内容导航。<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#toc: false  #关闭</span></div><div class="line"><span class="attr">toc:</span></div><div class="line"><span class="attr">  list_number:</span> <span class="literal">false</span>  <span class="comment"># 决定导航使用的标签， true 为 ol， false 为 ul。</span></div></pre></td></tr></table></figure></p>
+<h2 id="copyright-card-theme"><a href="#copyright-card-theme" class="headerlink" title="copyright (card theme)"></a>copyright (card theme)</h2><p>文章页版权声明内容，hexo 中所有变量及辅助函数等均可调用，具体请查阅 hexo.io。</p>
+<p>copyright: 这里写留言或版权声明：<a href="<%- url_for(page.path) %>" target="_blank" rel="external">&lt;%- url %&gt;</a></p>
+<h2 id="less"><a href="#less" class="headerlink" title="less"></a>less</h2><p>设置 less 编译时的入口文件路径，hexo-renderer-less。<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">less:</span></div><div class="line"><span class="attr">  compress:</span> <span class="literal">true</span>    <span class="comment"># 是否压缩css</span></div><div class="line"><span class="attr">  paths:</span></div><div class="line"><span class="bullet">    -</span> <span class="string">source/css/style.less</span></div></pre></td></tr></table></figure></p>
+<h2 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h2><p>集成了多说和 disqus，开启其一即可。<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">duoshuo-key 即多说创建站点时的二级域名。如：abc<span class="selector-class">.duoshuo</span><span class="selector-class">.com</span>，就填 abc。</div><div class="line">duoshuo: duoshuo-key </div><div class="line">或</div><div class="line"></div><div class="line">disqus_shortname: disqus_shortname</div></pre></td></tr></table></figure></p>
+<h2 id="数据统计"><a href="#数据统计" class="headerlink" title="数据统计"></a>数据统计</h2><p>集成的有谷歌和 CNZZ，请填写你的站点标识。<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">google_analytics:</span> key</div><div class="line"><span class="symbol">cnzz:</span> 站点id</div></pre></td></tr></table></figure></p>
+<h2 id="谷歌站点验证-card-theme"><a href="#谷歌站点验证-card-theme" class="headerlink" title="谷歌站点验证 (card theme)"></a>谷歌站点验证 (card theme)</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">google_site_verification:</span> <span class="literal">false</span></div></pre></td></tr></table></figure>
+<h2 id="规范网址-card-theme"><a href="#规范网址-card-theme" class="headerlink" title="规范网址 (card theme)"></a>规范网址 (card theme)</h2><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">让搜索引擎重定向你的不同域名、不同子域、同域不同目录的站点到你期望的路径。使用规范网址</div><div class="line"><span class="string">canonical:</span> <span class="string">http:</span><span class="comment">//imys.net</span></div></pre></td></tr></table></figure>
+<h2 id="版权起始年份"><a href="#版权起始年份" class="headerlink" title="版权起始年份"></a>版权起始年份</h2><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">since_year:</span> <span class="number">2006</span></div></pre></td></tr></table></figure>
+<h2 id="自定义页面关于"><a href="#自定义页面关于" class="headerlink" title="自定义页面关于"></a>自定义页面关于</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="string">用户页面中作者相关的描述性文字，如不需要设为</span> <span class="literal">false</span></div><div class="line"><span class="attr">about:</span> <span class="string">用户页面中作者相关的描述性文字，如不需要设为</span> <span class="literal">false</span></div></pre></td></tr></table></figure>
+<h2 id="hexo-deployer-git"><a href="#hexo-deployer-git" class="headerlink" title="hexo-deployer-git"></a>hexo-deployer-git</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+<p>If you want to use the latest features of hexo-deployer-git, you may install it from github,<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install git+git@github.com:hexojs/hexo-deployer-git.git --save</div></pre></td></tr></table></figure></p>
+<p>You can configure this plugin in <code>_config.yml</code>.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># You can use this:</span></div><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">[branch]</span></div><div class="line"><span class="attr">  message:</span> <span class="string">[message]</span></div><div class="line"><span class="attr">  name:</span> <span class="string">[git</span> <span class="string">user]</span></div><div class="line"><span class="attr">  email:</span> <span class="string">[git</span> <span class="string">email]</span></div><div class="line"><span class="attr">  extend_dirs:</span> <span class="string">[extend</span> <span class="string">directory]</span></div><div class="line"><span class="attr">  ignore_hidden:</span> <span class="literal">false</span> <span class="comment"># default is true</span></div><div class="line"><span class="attr">  ignore_pattern:</span> <span class="string">regexp</span>  <span class="comment"># whatever file that matches the regexp will be ignored when deploying</span></div><div class="line"></div><div class="line"><span class="comment"># or this:</span></div><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  message:</span> <span class="string">[message]</span></div><div class="line"><span class="attr">  repo:</span></div><div class="line"><span class="attr">    github:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;,[branch]</span></div><div class="line"><span class="attr">    coding:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;,[branch]</span></div><div class="line"><span class="attr">  extend_dirs:</span></div><div class="line"><span class="bullet">    -</span> <span class="string">[extend</span> <span class="string">directory]</span></div><div class="line"><span class="bullet">    -</span> <span class="string">[another</span> <span class="string">extend</span> <span class="string">directory]</span></div><div class="line"><span class="attr">  ignore_hidden:</span></div><div class="line"><span class="attr">    public:</span> <span class="literal">false</span></div><div class="line">    <span class="string">[extend</span> <span class="string">directory]:</span> <span class="literal">true</span></div><div class="line">    <span class="string">[another</span> <span class="string">extend</span> <span class="string">directory]:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  ignore_pattern:</span></div><div class="line">    <span class="string">[folder]:</span> <span class="string">regexp</span>  <span class="comment"># or you could specify the ignore_pattern under a certain directory</span></div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;github page 是 github 的一项静态页面服务，自从这功能上线以来很多人利用这个功能来制作项目的介绍站点，但是也有很多人利用这个功能来制作自己的博客网站。只要利用 hexo 就能够很好地搭建自己的博客平台，而且 hexo 下拥有很多的主题插件让自己的博客添加更多的功能。而且 github page 提供了域名绑定，只要在 github page 设置中绑定自己的网站域名，就可以用自己的域名来访问这个博客了。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://ling007.cn/categories/hexo/"/>
+    
+    
+      <category term="github" scheme="http://ling007.cn/tags/github/"/>
+    
+      <category term="hexo" scheme="http://ling007.cn/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>

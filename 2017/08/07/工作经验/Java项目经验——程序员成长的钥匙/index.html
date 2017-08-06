@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>Java项目经验——程序员成长的钥匙 | Bharals&#39;s Blog | 此处风景独好！</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="java,经验总结">
+    <meta name="description" content="Java就是用来做项目的Java的主要应用领域就是企业级的项目开发！要想从事企业级的项目开发，你必须掌握如下要点：  掌握项目开发的基本步骤 具备极强的面向对象的分析与设计技巧 掌握用例驱动、以架构为核心的主流开发方法  没有人愿意自己一辈子就满足于掌握了一些代码实现的技巧，别人告诉你要实现什么，你就用代码堆砌来实现别人的要求！你必须学会从整个项目的角度去思考！你必须学会假如你是项目经理，你该如何">
+<meta name="keywords" content="java,经验总结">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java项目经验——程序员成长的钥匙">
+<meta property="og:url" content="http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/index.html">
+<meta property="og:site_name" content="Bharals&#39;s Blog">
+<meta property="og:description" content="Java就是用来做项目的Java的主要应用领域就是企业级的项目开发！要想从事企业级的项目开发，你必须掌握如下要点：  掌握项目开发的基本步骤 具备极强的面向对象的分析与设计技巧 掌握用例驱动、以架构为核心的主流开发方法  没有人愿意自己一辈子就满足于掌握了一些代码实现的技巧，别人告诉你要实现什么，你就用代码堆砌来实现别人的要求！你必须学会从整个项目的角度去思考！你必须学会假如你是项目经理，你该如何">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-08-06T19:49:35.817Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Java项目经验——程序员成长的钥匙">
+<meta name="twitter:description" content="Java就是用来做项目的Java的主要应用领域就是企业级的项目开发！要想从事企业级的项目开发，你必须掌握如下要点：  掌握项目开发的基本步骤 具备极强的面向对象的分析与设计技巧 掌握用例驱动、以架构为核心的主流开发方法  没有人愿意自己一辈子就满足于掌握了一些代码实现的技巧，别人告诉你要实现什么，你就用代码堆砌来实现别人的要求！你必须学会从整个项目的角度去思考！你必须学会假如你是项目经理，你该如何">
+    
+        <link rel="alternate" type="application/atom+xml" title="Bharals&#39;s Blog" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/img/ico/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css?v=1.6.10">
+    <script>window.lazyScripts=[]</script>
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/ico/logo.png">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">bharals</h5>
+          <a href="mailto:bharals@163.com" title="bharals@163.com" class="mail">bharals@163.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://www.weibo.com/p/1005052808030190/home?from=page_100505&mod=TAB&is_all=1#place" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                微博
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">Java项目经验——程序员成长的钥匙</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">Java项目经验——程序员成长的钥匙</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2017-08-06T19:51:13.867Z" itemprop="datePublished" class="page-time">
+  2017-08-07
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/经验总结/">经验总结</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>目 录</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Java就是用来做项目的"><span class="post-toc-text">Java就是用来做项目的</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#关于基础知识"><span class="post-toc-text">关于基础知识</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#JavaSE"><span class="post-toc-text">JavaSE</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Servlet和JSP"><span class="post-toc-text">Servlet和JSP</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#HTML与JavaScript"><span class="post-toc-text">HTML与JavaScript</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#接下来是SSH"><span class="post-toc-text">接下来是SSH</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Struts2："><span class="post-toc-text">Struts2：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Spring："><span class="post-toc-text">Spring：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Hibernate："><span class="post-toc-text">Hibernate：</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#最后是项目开发能力"><span class="post-toc-text">最后是项目开发能力</span></a></li></ol>
+        </nav>
+    </aside>
+    
+<article id="post-工作经验/Java项目经验——程序员成长的钥匙"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">Java项目经验——程序员成长的钥匙</h1>
+		<hr>
+        <div class="post-meta">
+            <time class="post-time" title="2017-08-07 03:51:13" datetime="2017-08-06T19:51:13.867Z"  itemprop="datePublished">2017-08-07</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/经验总结/">经验总结</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h2 id="Java就是用来做项目的"><a href="#Java就是用来做项目的" class="headerlink" title="Java就是用来做项目的"></a>Java就是用来做项目的</h2><p>Java的主要应用领域就是企业级的项目开发！要想从事企业级的项目开发，你必须掌握如下要点：</p>
+<ol>
+<li>掌握项目开发的基本步骤</li>
+<li>具备极强的面向对象的分析与设计技巧</li>
+<li>掌握用例驱动、以架构为核心的主流开发方法</li>
+</ol>
+<p>没有人愿意自己一辈子就满足于掌握了一些代码实现的技巧，别人告诉你要实现什么，你就用代码堆砌来实现别人的要求！你必须学会从整个项目的角度去思考！你必须学会假如你是项目经理，你该如何思考！你必须学会假如你是架构师，你该如何思考！你必须掌握针对某个特定问题领域的分析方法！</p>
+<h2 id="关于基础知识"><a href="#关于基础知识" class="headerlink" title="关于基础知识"></a>关于基础知识</h2><p>你可以看看这些名词或知识点，看是否能说出个一二三四来。</p>
+<h3 id="JavaSE"><a href="#JavaSE" class="headerlink" title="JavaSE"></a>JavaSE</h3><ul>
+<li>基本语法、数据类型、操作符等：int、long、Integer、Long、if、else、for、while</li>
+<li>面向对象：class（类）、Object（对象）、instance（实例）、state（状态）、behavior（行为）、field、method、new、可见性（访问控制）、attribute、property、package、import、static variable、class variable、instance variable、heap、method area、stack、GC（垃圾回收）、override、overload、对象转型(casting)、多态、this、super</li>
+<li>异常处理：理解编译期错误和运行期错误的区别、Exception、RuntimeException、checked exception、unchecked exception、try、catch、finally、throw new XXXException、throws XXXException、异常处理的基本原则</li>
+<li>数组与集合：数组的定义和使用方法、Collection、List、Set、Map、ArrayList、HashSet、HashMap、Iterator、equals、hashCode、Comparable、Comparator</li>
+<li>常用类：String、intern、常量池、StringBuffer、java.util.Date、SimpleDateFormat、Regex（正则表达式）</li>
+<li>反射机制：Class、Method、Field、invoke、newInstance、BeanUtils（apache-commons）、PropertyUtils（apache-commons）</li>
+<li>输入输出流：InputStream、OutputStream、Reader、Writer、Adapter设计模式与原始流类、Decorator设计模式与包装流类、对象序列化和反序列化</li>
+<li>多线程：Thread、Runnable、sleep、wait、notify、synchronized、lock</li>
+</ul>
+<h3 id="Servlet和JSP"><a href="#Servlet和JSP" class="headerlink" title="Servlet和JSP"></a>Servlet和JSP</h3><ul>
+<li>HttpServlet、doGet、doPost、HttpServletRequest、HttpServletResponse、request.getParameter()、request.setAttribute()、request.getAttribute()、request.getSession()、ServletContext、Filter、web.xml、tomcat、forward与redirect、http协议的无状态性、cookie、JSP Scope Object、<c:out …="">、<c:foreach …=""></c:foreach></c:out></li>
+</ul>
+<h3 id="HTML与JavaScript"><a href="#HTML与JavaScript" class="headerlink" title="HTML与JavaScript"></a>HTML与JavaScript</h3><ul>
+<li>你需要能够理解常见的网页标签、理解在网页中引入JavaScript的方法、以及JavaScript的基本语法与使用方法</li>
+</ul>
+<p>以上，就是你进一步学习Java所必备的基本知识。特别是一些个专业术语和名词，看到这些名词，如果你像看到亲爹一样亲切，那么说明你对Java的基础知识就很熟悉了。</p>
+<h2 id="接下来是SSH"><a href="#接下来是SSH" class="headerlink" title="接下来是SSH"></a>接下来是SSH</h2><p>对于初学者来说，这三大框架被赋予了太多神秘的色彩，似乎它们是重中之重的知识！但是对于拥有多年Java开发经验的专业技术人员来说，对于那些Java牛人来说，却对这三大框架不太感冒！难道它们不重要吗？</p>
+<p>现在很多企业都在用这三大框架，所以很多企业也把掌握这三大框架作为招聘的必备条件。不可否认的是，也有很多大型企业没有用这三大框架，这些企业经过多年发展，自身已经有一定的技术积累，也形成了自己独特的技术框架体系。这三大框架既可以说很重要，也可以说不重要。</p>
+<p>说重要的原因在于：这三大框架对JavaEE开发中所存在的普遍的问题，提供了优美的解决方案，它们蕴含了这个行业中最NB的开发人员的努力和想法，所以，学习这三大框架，你就可以窥探到这些处于技术巅峰的牛人们究竟对一个问题是怎么想的，通过一种什么样的设计思路去解决问题的。所以，对于你来说，你没有太多项目开发的经验，经验是什么？经验就是你知道可能会遇到哪些问题，针对哪个问题可以有哪些解决方法，在某个情景下，哪种解决方法是较好的，哪种方法不太好等等！如果你没做过什么项目，你根本就不会去意识到你可能会遇到哪些问题，而这些问题往往又是非常关键的！解决得不好，会影响到你的程序的稳定性、可扩展性等等！三大框架就给初学者提供了了解你以后可能会遇到哪些问题，以及针对这些问题的解决方案！</p>
+<p>当你了解了这三大框架为什么是重要的，那么你也就能理解，为什么这三大框架也可以说是不重要的。如果你曾经开发过很多项目，你碰到了各种各样的问题，凭着你的技术功底，逐个击破了这些问题，在这些人眼里，三大框架（是不是还有N个框架？呵呵）都是浮云！</p>
+<p>你属于哪一种人呢？如果你没有太多项目开发经验，那么三大框架对于你来说就是非常重要的！而且，由此你也知道了该怎么去学这三大框架。对于三大框架的学习而言，着力点在于给你展示问题，并触发你自己主动的思考，我们鼓励你提出自己的想法，也许你的想法很白痴，但那毕竟是你自己的想法，如果你不知道牛人的想法，那你怎么知道自己的想法是很白痴的呢？在这种思想的碰撞过程中，你就会逐渐提高自己！所以，三大框架学完之后，你不应该只是看到一大堆配置文件，你不应该只是看到了一些Action，一些Service，一些映射文件，你不应该只知道session.save/update/delete，你不应该只是知道struts2中有一堆interceptor，你不应该只是看到一堆jar包……</p>
+<p>如果你只是知道拷贝一堆jar包，定义一系列配置文件之后，SSH三大框架就能够运行起来了，也可以给你干活了，那么，很悲哀的是，你仍然没有掌握三大框架的精粹！请你回答以下问题：</p>
+<h3 id="Struts2："><a href="#Struts2：" class="headerlink" title="Struts2："></a>Struts2：</h3><ul>
+<li>为什么每次请求都要创建一个Action对象？</li>
+<li>ModelDriven拦截器的配置中refreshModelBeforeResult解决了什么问题？</li>
+<li>为什么在web.xml中配置的StrutsPrepareAndExecuteFilter要过滤所有的请求？</li>
+<li>请你给我谈谈ValueStack？</li>
+<li>Struts2是如何实现MVC设计模式的？</li>
+</ul>
+<h3 id="Spring："><a href="#Spring：" class="headerlink" title="Spring："></a>Spring：</h3><ul>
+<li>你为什么要用Spring？</li>
+<li>请你聊一聊IOC/DI？ </li>
+<li>什么是声明式的事务管理？</li>
+<li>为什么要使用声明式的事务管理？</li>
+<li>Spring如何实现声明式的事务管理？ </li>
+<li>把spring和hibernate集成，定义事务管理特性的时候，为何要将除了添加、删除、更新操作之外的方法，即主要执行查询任务的方法定义为read-only？</li>
+</ul>
+<h3 id="Hibernate："><a href="#Hibernate：" class="headerlink" title="Hibernate："></a>Hibernate：</h3><ul>
+<li>请你谈谈你对OR映射的理解？</li>
+<li>很多人说Hibernate不适合大项目，性能有问题，你是如何理解的？</li>
+<li>Hibernate为什么一定要定义一个数据库标识？</li>
+<li>为什么Hibernate建议你的实体类实现hashCode和equals方法？</li>
+<li>谈谈你对Hibernate实体类中的数据库标识与数据库主键之间关系的认识？</li>
+<li>谈谈你对Hibernate关联映射与数据库外键之间关系的认识？</li>
+<li>调用session.save()方法，hibernate一定会发出insert语句吗？谈谈你的理解</li>
+<li>调用session.update()方法，hibernate一定会发出update语句吗？谈谈你的理解</li>
+<li>请你聊一下以下名词、概念或用法：lazy、lazy=”extra”、inverse、fetch、fetch=”join”、fetch=”subselect”、batch-size 配置了lazy=”true”一定会实现懒加载吗？</li>
+<li>请你谈谈Hibernate中的“N+1”问题</li>
+<li>请你谈谈Hibernate有哪些最佳实践？</li>
+</ul>
+<p>以上并非SSH中全部重点的问题，但它们能考察你能否灵活运用SSH框架！如果你能深刻理解这些问题，再配以合适的实战项目训练，你也会逐渐成为牛人！</p>
+<h2 id="最后是项目开发能力"><a href="#最后是项目开发能力" class="headerlink" title="最后是项目开发能力"></a>最后是项目开发能力</h2><p>不管你是学Java还是别的技术，你的根本目的在于给客户创造价值！否则，你下大力气学习的东西，随着技术的进步和更新，很快就会过时！所以，技术的核心在于用技术创造有价值的成果！也就是说，客户需要什么，你就要用技术把客户需要的东西给他造出来！一个公司之所以要用各种福利条件极力挽留你，是因为你能够给公司带来极高的利益！那么，你有什么可以给公司利用的呢？公司最看重你的哪方面的能力呢？</p>
+<p>做项目需要的能力很多，其中最核心最基础的就是建模能力（现在最主流的就是面向对象建模！）。什么是建模能力呢？</p>
+<p>我给大家一个面试题： 一个保险公司的保险卡管理模块：销售人员领取保险卡信息（保险卡数量、卡号、领取日期），然后直接销售给客户，销售完毕后，将保险卡信息录入保险公司系统内部（销售人员信息、购买人信息、购买的保险卡数量、卡号等），客户登录保险公司网站激活保险卡，需要填写（保险卡卡号、激活密码、被保险人信息、受益人信息）</p>
+<p>要求就是：如果这个模块交给你来做，你要怎么做？你要解决哪些问题？你可否画个图，给我描述一下你的想法是什么吗？</p>
+<p>这只是一个面试题而已，因为只有简单几句话，所以我把它放到这里，让大家感受一下所谓建模要解决什么问题。而业务领域的问题实在是太多了！也许一个几十上百页的需求文档才能把某个业务领域的问题描述清楚，而你的职责就是要把它们实现出来！</p>
+<p>某个公司要开发一个考勤管理系统，要求与现有的人力资源系统对接，你是主要的技术负责人，那么，你要做哪些工作呢？</p>
+<p>某ERP项目要实现一个排班管理模块，交给你去完成，你如何去完成呢？</p>
+<p>不要抱怨项目经理给你的信息太少（只有几句话），不要抱怨客户没有描述清楚他们的需求……你的价值就在于理顺所有的问题，用各种手段获得你想要的信息，按照一定的思路汇总，并在特定的时间里逐个解决它！</p>
+<p><strong>你应该意识到学Java不是一个坦克大战、一个网络飞车、一个CMS、一个DRP、一个OA那么简单，你不要沉迷于那些技术细节（虽然也是有必要的，但不要转牛角尖），不要满足于实现了CRUD式的项目需求（虽然这是基础中的基础），在你的前方，永远有一个目标在那里，需要你去努力追赶！</strong></p>
+<p>今后你将面对更加繁杂的需求，你<strong>学习项目的唯一目的，就是：学习如何将需求转化为实现，如何对需求进行分析，如何建立概念模型，如何理顺各种概念之间的关系，如何进行设计，如何选择合适的技术来实现你的设计方案，如何对你的实现进行测试，如何解决你所遇到的形形色色的问题（性能、需求变更等）</strong>。当你真正到公司里面从事了几年开发之后，你就会同意我的说法！</p>
+<p>利用Java找工作，需要的就是项目经验，项目经验就是理解项目开发的基本过程，理解项目的分析方法，理解项目的设计思路，理解项目的实现技巧，理解项目的测试方法，理解项目中各种问题的解决方案！！！</p>
+<p>所以，你该清楚你的目标了！</p>
+<blockquote>
+<p>原文链接：<a href="https://zhuanlan.zhihu.com/p/28003904" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/28003904</a></p>
+</blockquote>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2017-08-06T19:49:35.817Z" itemprop="dateUpdated">2017-08-07 03:49:35</time>
+</span><br>
+
+
+        
+        如果文章对您有用，欢迎点击下面赞赏，谢谢您的支持和鼓励！文章链接：<a href="/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/" target="_blank" rel="external">http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/</a>
+        
+    </div>
+    <footer>
+        <a href="http://ling007.cn">
+            <img src="/img/ico/logo.png" alt="bharals">
+            bharals
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/经验总结/">经验总结</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/&title=《Java项目经验——程序员成长的钥匙》 — Bharals's Blog&pic=http://ling007.cn/img/ico/logo.png" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/&title=《Java项目经验——程序员成长的钥匙》 — Bharals's Blog&source=just do it" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Java项目经验——程序员成长的钥匙》 — Bharals's Blog&url=http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/&via=http://ling007.cn" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2017/08/07/文章摘录/自律的人生，到底有多爽/" id="post-next" class="post-nav-link">
+        <div class="tips">下一页 <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">自律的人生，到底有多爽</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢赞赏~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/reward/wechat.jpg" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/reward/wechat.jpg" data-alipay="/img/reward/alipay.jpg">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="bottom">
+        <p><span>bharals &copy; 2017</span></p>	
+		<span>
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+</span>
+		<p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>   
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/&title=《Java项目经验——程序员成长的钥匙》 — Bharals's Blog&pic=http://ling007.cn/img/ico/logo.png" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/&title=《Java项目经验——程序员成长的钥匙》 — Bharals's Blog&source=just do it" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Java项目经验——程序员成长的钥匙》 — Bharals's Blog&url=http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/&via=http://ling007.cn" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://ling007.cn/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAADJElEQVR42u3aS3LjMAwFwNz/0p4DJJbfI5QpG2mtUrRCq6kFjM/XV3w9nlzXd17v8P3TZJ9kt9subGxs7A9hPy6vCfv7Ds/uv8Zf35885w/fjo2Njb2OffZASbjK1ycvI7dgY2NjYyf/e5ZUXIeofB0bGxsbO2e34HvTmNHrwcbGxl7HTn70J1u3QWXSBvhPtTRsbGzst2fnoej9//6V/jY2Njb2G7Mf5ZUcR5543NW4rRXY2NjYi9hnJf6kTN8i8yNrj/XpndjY2NhL2WePkn86Oeg85YgGg7CxsbFXsCcpx3UbNW+4Js/QJh4vXgM2Njb2anbbgk1SjnYlaTMnK8WwDjY2NvbHstsvS8ZlzhoD7aeThgQ2Njb2Pvak7ZoUceZN2eTF3BDMsLGxsT+WnW86L+7fVZCaBz9sbGzsfew2AOQlofwgzpoK7evExsbG3sdOgkR7HDn+7NvP7sfGxsbeyk6KPnP8WVv3riSkiNvY2NjYH8iedELnozmTdCU53BEeGxsb++3ZeWO1be6etXXPjhIbGxsbuyijx8nAWXloMtBTBFdsbGzsdey86Zvw2rJO3jw+W39RRcPGxsZewW5/yk+Sk3awJt+tCHvY2NjYi9htY/WsWZu0is9W2jCJjY2NvY89DzZJa6ENhG2yVA/3YGNjYy9lt23XPJhFUbRMUfL7n2Zg2NjY2CvYZ9fZFu0hTkZ2bqNiY2Njvz27HdC590Tb0JgXtl40LbCxsbEXsecJQB6K2oLUJGTWO2BjY2N/ODsJUXkb+GwEpx3WaYtHLxISbGxs7EXs600nRaLJmM4ozZhEOWxsbOyPYuejk2cFprYxnO/WlsawsbGxd7OT7c5GHpNiU17ubwPz06ISNjY29oezH+U1OY6zYJmHxnxnbGxs7E3s32vi5slDUrr6jR2wsbGxN7HboDVvuOZHk+x8GMCwsbGx17EnIadt684TmLOiEjY2NjZ2m3gUo5BxYyAPV1FXBBsbG/sPs/NQkR9Qu54P62BjY2P/BXYbPJKA1KYlk7QnaUhjY2Njb2W3BZo8nUiGdfIjmD8PNjY29jr2P0aYxHC07/vyAAAAAElFTkSuQmCC" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+</script>
+
+<script src="/js/main.min.js?v=1.6.10"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="/js/search.min.js?v=1.6.10" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
