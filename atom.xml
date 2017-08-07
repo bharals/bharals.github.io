@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ling007.cn/"/>
-  <updated>2017-08-06T22:03:08.728Z</updated>
+  <updated>2017-08-07T01:15:46.504Z</updated>
   <id>http://ling007.cn/</id>
   
   <author>
@@ -16,16 +16,61 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://ling007.cn/2017/08/07/skills/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
-    <id>http://ling007.cn/2017/08/07/skills/七牛云图床搭建/</id>
-    <published>2017-08-06T22:03:08.728Z</published>
-    <updated>2017-08-06T22:03:08.728Z</updated>
+    <title>七牛云图床使用</title>
+    <link href="http://ling007.cn/2017/08/07/skills/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A%E4%BD%BF%E7%94%A8/"/>
+    <id>http://ling007.cn/2017/08/07/skills/七牛云图床使用/</id>
+    <published>2017-08-07T00:37:32.089Z</published>
+    <updated>2017-08-07T01:15:46.504Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我为什么要使用七牛云？</p>
+<p>开始的时候，正在做自己的静态博客，用 hexo 的时候我一般都是直接在 markdown 里面插入本地的图片。这样做是很正常却也是很傻的一种方式。这样做的好处虽然是少了上传图片的这一个步骤，却是没有考虑到博客拥有很多图片时上传图片占用了很大的时间和空间。这样长远来看是很划算的一件事，于是我就去网上找了好些图床。</p>
+<p>百度了好多教程，都是推荐七牛云的为多（主要是七牛免费，哈哈）。为了建立七牛图床，也是花了自己好大的时间。悲催。流泪…下面开始正题。</p>
+<h2 id="创建七牛空间"><a href="#创建七牛空间" class="headerlink" title="创建七牛空间"></a>创建七牛空间</h2><p>七牛地址：<a href="https://www.qiniu.com/" target="_blank" rel="external">https://www.qiniu.com/</a><br>注册完成，并认证后，开始创建空间。如图：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ouabzbsra.bkt.clouddn.com/images/170807/ehI5c7mccE.png?imageslim" alt="mark" title="">
+                </div>
+                <div class="image-caption">mark</div>
+            </figure>
+<h2 id="上传图片"><a href="#上传图片" class="headerlink" title="上传图片"></a>上传图片</h2><p>我们可以直接在网页上上传：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ouabzbsra.bkt.clouddn.com/images/170807/eDFlJF8CLA.png?imageslim" alt="mark" title="">
+                </div>
+                <div class="image-caption">mark</div>
+            </figure>
+<h2 id="获取外链"><a href="#获取外链" class="headerlink" title="获取外链"></a>获取外链</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ouabzbsra.bkt.clouddn.com/images/170807/DEI3leJlHd.png?imageslim" alt="mark" title="">
+                </div>
+                <div class="image-caption">mark</div>
+            </figure>
+<h2 id="上传图片的多种方式"><a href="#上传图片的多种方式" class="headerlink" title="上传图片的多种方式"></a>上传图片的多种方式</h2><ol>
+<li>强烈推荐： <a href="http://mpic.lzhaofu.cn/" target="_blank" rel="external">http://mpic.lzhaofu.cn/</a> 用这个软件上传图片，下载用过就知道其方便。</li>
+<li>Google 插件上传： <a href="https://chrome.google.com/webstore/detail/emmfkgdgapbjphdolealbojmcmnphdcc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/emmfkgdgapbjphdolealbojmcmnphdcc</a></li>
+<li>官方 qshell 上传下载，本人目前还没用，windows 下太不友好。闪退启动不了，我就能不了了之了。</li>
+</ol>
+<h2 id="感言"><a href="#感言" class="headerlink" title="感言"></a>感言</h2><p>折腾这个七牛图床，花了好长时间，没想到结果还是比较理想的。至于用官方 qshell 工具上传下载同步以后有时间再说吧。未完待续。。。</p>
+]]></content>
     
     <summary type="html">
     
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;我为什么要使用七牛云？&lt;/p&gt;
+&lt;p&gt;开始的时候，正在做自己的静态博客，用 hexo 的时候我一般都是直接在 markdown 里面插入本地
+    
     </summary>
     
+      <category term="skills" scheme="http://ling007.cn/categories/skills/"/>
+    
+    
+      <category term="hexo" scheme="http://ling007.cn/tags/hexo/"/>
+    
+      <category term="七牛云" scheme="http://ling007.cn/tags/%E4%B8%83%E7%89%9B%E4%BA%91/"/>
+    
+      <category term="图床" scheme="http://ling007.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
@@ -188,21 +233,21 @@
     <link href="http://ling007.cn/2017/08/07/java/java%E7%9F%A5%E8%AF%86%E7%82%B9%E5%9B%BE%E8%A7%A3/"/>
     <id>http://ling007.cn/2017/08/07/java/java知识点图解/</id>
     <published>2017-08-06T19:51:13.853Z</published>
-    <updated>2017-08-06T21:19:35.387Z</updated>
+    <updated>2017-08-07T01:26:31.905Z</updated>
     
     <content type="html"><![CDATA[<h2 id="java-基础图"><a href="#java-基础图" class="headerlink" title="java 基础图"></a>java 基础图</h2><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="/img/java/java-f.png" alt="java 基础图" title="">
+                    <img src="http://ouabzbsra.bkt.clouddn.com/java/170807/E0427i25K9.png?imageslim" alt="mark" title="">
                 </div>
-                <div class="image-caption">java 基础图</div>
+                <div class="image-caption">mark</div>
             </figure>
 <h2 id="java-API-图"><a href="#java-API-图" class="headerlink" title="java API 图"></a>java API 图</h2><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="/img/java/java-api.png" alt="java API 图" title="">
+                    <img src="http://ouabzbsra.bkt.clouddn.com/java/170807/I5E22KJeJc.png?imageslim" alt="mark" title="">
                 </div>
-                <div class="image-caption">java API 图</div>
+                <div class="image-caption">mark</div>
             </figure>
 ]]></content>
     
@@ -217,6 +262,42 @@
     
     
       <category term="java" scheme="http://ling007.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客源码管理</title>
+    <link href="http://ling007.cn/2017/08/07/hexo/%E5%8D%9A%E5%AE%A2%E7%AE%A1%E7%90%86/"/>
+    <id>http://ling007.cn/2017/08/07/hexo/博客管理/</id>
+    <published>2017-08-06T19:07:34.711Z</published>
+    <updated>2017-08-07T01:18:26.398Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="托管网站"><a href="#托管网站" class="headerlink" title="托管网站"></a>托管网站</h2><p>托管网站：<a href="https://coding.net/u/bharals/p/bharals.coding.me/git" target="_blank" rel="external">https://coding.net/u/bharals/p/bharals.coding.me/git</a></p>
+<h2 id="分支结构"><a href="#分支结构" class="headerlink" title="分支结构"></a>分支结构</h2><p>page页面：master<br>markdowm文件： source</p>
+<h2 id="博客主题"><a href="#博客主题" class="headerlink" title="博客主题"></a>博客主题</h2><p>主题仓库：<a href="https://git.coding.net/bharals/hexo-theme-ling.git" title="博客主题" target="_blank" rel="external">https://git.coding.net/bharals/hexo-theme-ling.git</a><br>原创主题作者仓库：<a href="https://github.com/yscoder/hexo-theme-indigo.git" target="_blank" rel="external">https://github.com/yscoder/hexo-theme-indigo.git</a></p>
+<h2 id="主题依赖安装"><a href="#主题依赖安装" class="headerlink" title="主题依赖安装"></a>主题依赖安装</h2><p>在 Hexo 根目录，如果以下插件已安装过，无需再次安装。</p>
+<h3 id="Less"><a href="#Less" class="headerlink" title="Less"></a>Less</h3><p>主题默认使用 less 作为 css 预处理工具。<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm <span class="keyword">install</span> hexo-renderer-<span class="keyword">less</span> <span class="comment">--save</span></div></pre></td></tr></table></figure></p>
+<h3 id="Feed"><a href="#Feed" class="headerlink" title="Feed"></a>Feed</h3><p>用于生成 rss。<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-feed --save</span></div></pre></td></tr></table></figure></p>
+<h3 id="Json-content"><a href="#Json-content" class="headerlink" title="Json-content"></a>Json-content</h3><p>用于生成静态站点数据，用作站内搜索的数据源。<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm <span class="keyword">install</span> hexo-generator-<span class="keyword">json</span>-<span class="keyword">content</span> <span class="comment">--save</span></div></pre></td></tr></table></figure></p>
+<h3 id="QRCode"><a href="#QRCode" class="headerlink" title="QRCode"></a>QRCode</h3><p>用于生成微信分享二维码。</p>
+<p>可选，不安装时会请求 jiathis Api 生成二维码。<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> npm install hexo-helper-qrcode --save</span></div></pre></td></tr></table></figure></p>
+<p>##开启标签页</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new<span class="built_in"> page </span>tags</div></pre></td></tr></table></figure>
+<p>修改 hexo/source/tags/index.md 的元数据<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">layout:</span> <span class="string">tags</span></div><div class="line"><span class="attr">comments:</span> <span class="literal">false</span></div><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure></p>
+<h3 id="开启分类页"><a href="#开启分类页" class="headerlink" title="开启分类页"></a>开启分类页</h3><p>仅 card theme 支持。<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new<span class="built_in"> page </span>categories</div></pre></td></tr></table></figure></p>
+<p>修改 hexo/source/categories/index.md 的元数据<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">layout:</span> <span class="string">categories</span></div><div class="line"><span class="attr">comments:</span> <span class="literal">false</span></div><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;托管网站&quot;&gt;&lt;a href=&quot;#托管网站&quot; class=&quot;headerlink&quot; title=&quot;托管网站&quot;&gt;&lt;/a&gt;托管网站&lt;/h2&gt;&lt;p&gt;托管网站：&lt;a href=&quot;https://coding.net/u/bharals/p/bharals.coding.me
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://ling007.cn/categories/hexo/"/>
+    
+    
+      <category term="hexo， skills" scheme="http://ling007.cn/tags/hexo%EF%BC%8C-skills/"/>
     
   </entry>
   
@@ -292,7 +373,7 @@
     <link href="http://ling007.cn/2017/06/03/hexo/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
     <id>http://ling007.cn/2017/06/03/hexo/搭建hexo博客遇到的坑/</id>
     <published>2017-06-03T13:59:16.000Z</published>
-    <updated>2017-08-06T22:01:15.233Z</updated>
+    <updated>2017-08-07T01:22:57.922Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前些时间总想着做自己的一个博客网站，可是总是拖啊拖的，一直到最近几天才着手做。可是啊，由于自己水平有限，对前端的知识又为之甚少，犹如</p>
 <h2 id="搭建hexo环境"><a href="#搭建hexo环境" class="headerlink" title="搭建hexo环境"></a>搭建hexo环境</h2><ul>
@@ -302,14 +383,14 @@
 <ul>
 <li>问题二：如何把page托管到多个仓库</li>
 </ul>
-<p>下图就是配置，需要注意的是，仓库地址只能写 <code>htpps</code> 格式的，<code>ssh</code> 方式会报错<br><figure class="image-bubble">
+<p>下图就是配置，需要注意的是，仓库地址只能写 <code>htpps</code> 格式的，<code>ssh</code> 方式会报错</p>
+<figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://i.imgur.com/W3FBVha.png" alt="" title="">
+                    <img src="http://ouabzbsra.bkt.clouddn.com/images/170807/7IgIaH8LfL.png?imageslim" alt="mark" title="">
                 </div>
-                <div class="image-caption"></div>
-            </figure></p>
-]]></content>
+                <div class="image-caption">mark</div>
+            </figure>]]></content>
     
     <summary type="html">
     
@@ -323,6 +404,37 @@
       <category term="hexo" scheme="http://ling007.cn/tags/hexo/"/>
     
       <category term="blog" scheme="http://ling007.cn/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 常用格式</title>
+    <link href="http://ling007.cn/2017/06/03/skills/markdowm%E8%AF%AD%E8%A8%80/"/>
+    <id>http://ling007.cn/2017/06/03/skills/markdowm语言/</id>
+    <published>2017-06-02T16:00:00.000Z</published>
+    <updated>2017-08-06T19:49:35.813Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。<br><a id="more"></a></p>
+<h2 id="标题格式"><a href="#标题格式" class="headerlink" title="标题格式"></a>标题格式</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#</span><span class="bash"> 标题１</span></div><div class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 标题２</span></span></div><div class="line"><span class="meta">#</span><span class="bash"><span class="comment">##　标题３</span></span></div></pre></td></tr></table></figure>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>如果你需要引用一小段别处的句子，那么就要用引用的格式。<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&gt;</span><span class="bash"></span></div></pre></td></tr></table></figure></p>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby"> </span></div><div class="line"><span class="ruby"><span class="number">1</span>.</span></div></pre></td></tr></table></figure>
+<h2 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h2><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby"> [ ] </span></div><div class="line"><span class="ruby">- [x]</span></div></pre></td></tr></table></figure>
+<h2 id="链接和图片"><a href="#链接和图片" class="headerlink" title="链接和图片"></a>链接和图片</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[<span class="string">link</span>](<span class="link">http://ling007.cn/</span>)</div><div class="line">![<span class="string">image</span>](<span class="link">http://</span>)</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="实用技巧" scheme="http://ling007.cn/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="skill" scheme="http://ling007.cn/tags/skill/"/>
+    
+      <category term="markdowm" scheme="http://ling007.cn/tags/markdowm/"/>
     
   </entry>
   
@@ -358,37 +470,6 @@
       <category term="优化" scheme="http://ling007.cn/tags/%E4%BC%98%E5%8C%96/"/>
     
       <category term="skill" scheme="http://ling007.cn/tags/skill/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown 常用格式</title>
-    <link href="http://ling007.cn/2017/06/03/skills/markdowm%E8%AF%AD%E8%A8%80/"/>
-    <id>http://ling007.cn/2017/06/03/skills/markdowm语言/</id>
-    <published>2017-06-02T16:00:00.000Z</published>
-    <updated>2017-08-06T19:49:35.813Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。<br><a id="more"></a></p>
-<h2 id="标题格式"><a href="#标题格式" class="headerlink" title="标题格式"></a>标题格式</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#</span><span class="bash"> 标题１</span></div><div class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 标题２</span></span></div><div class="line"><span class="meta">#</span><span class="bash"><span class="comment">##　标题３</span></span></div></pre></td></tr></table></figure>
-<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure>
-<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>如果你需要引用一小段别处的句子，那么就要用引用的格式。<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&gt;</span><span class="bash"></span></div></pre></td></tr></table></figure></p>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby"> </span></div><div class="line"><span class="ruby"><span class="number">1</span>.</span></div></pre></td></tr></table></figure>
-<h2 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h2><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby"> [ ] </span></div><div class="line"><span class="ruby">- [x]</span></div></pre></td></tr></table></figure>
-<h2 id="链接和图片"><a href="#链接和图片" class="headerlink" title="链接和图片"></a>链接和图片</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[<span class="string">link</span>](<span class="link">http://ling007.cn/</span>)</div><div class="line">![<span class="string">image</span>](<span class="link">http://</span>)</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="实用技巧" scheme="http://ling007.cn/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
-    
-    
-      <category term="skill" scheme="http://ling007.cn/tags/skill/"/>
-    
-      <category term="markdowm" scheme="http://ling007.cn/tags/markdowm/"/>
     
   </entry>
   

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>七牛云图床使用 | Bharals&#39;s Blog | 人不折腾枉少年！</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="hexo,七牛云,图床">
+    <meta name="description" content="前言我为什么要使用七牛云？ 开始的时候，正在做自己的静态博客，用 hexo 的时候我一般都是直接在 markdown 里面插入本地的图片。这样做是很正常却也是很傻的一种方式。这样做的好处虽然是少了上传图片的这一个步骤，却是没有考虑到博客拥有很多图片时上传图片占用了很大的时间和空间。这样长远来看是很划算的一件事，于是我就去网上找了好些图床。 百度了好多教程，都是推荐七牛云的为多（主要是七牛免费，哈哈">
+<meta name="keywords" content="hexo,七牛云,图床">
+<meta property="og:type" content="article">
+<meta property="og:title" content="七牛云图床使用">
+<meta property="og:url" content="http://ling007.cn/2017/08/07/skills/七牛云图床使用/index.html">
+<meta property="og:site_name" content="Bharals&#39;s Blog">
+<meta property="og:description" content="前言我为什么要使用七牛云？ 开始的时候，正在做自己的静态博客，用 hexo 的时候我一般都是直接在 markdown 里面插入本地的图片。这样做是很正常却也是很傻的一种方式。这样做的好处虽然是少了上传图片的这一个步骤，却是没有考虑到博客拥有很多图片时上传图片占用了很大的时间和空间。这样长远来看是很划算的一件事，于是我就去网上找了好些图床。 百度了好多教程，都是推荐七牛云的为多（主要是七牛免费，哈哈">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://ouabzbsra.bkt.clouddn.com/images/170807/ehI5c7mccE.png?imageslim">
+<meta property="og:image" content="http://ouabzbsra.bkt.clouddn.com/images/170807/eDFlJF8CLA.png?imageslim">
+<meta property="og:image" content="http://ouabzbsra.bkt.clouddn.com/images/170807/DEI3leJlHd.png?imageslim">
+<meta property="og:updated_time" content="2017-08-07T01:15:46.504Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="七牛云图床使用">
+<meta name="twitter:description" content="前言我为什么要使用七牛云？ 开始的时候，正在做自己的静态博客，用 hexo 的时候我一般都是直接在 markdown 里面插入本地的图片。这样做是很正常却也是很傻的一种方式。这样做的好处虽然是少了上传图片的这一个步骤，却是没有考虑到博客拥有很多图片时上传图片占用了很大的时间和空间。这样长远来看是很划算的一件事，于是我就去网上找了好些图床。 百度了好多教程，都是推荐七牛云的为多（主要是七牛免费，哈哈">
+<meta name="twitter:image" content="http://ouabzbsra.bkt.clouddn.com/images/170807/ehI5c7mccE.png?imageslim">
+    
+        <link rel="alternate" type="application/atom+xml" title="Bharals&#39;s Blog" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/img/ico/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css?v=1.6.10">
+    <script>window.lazyScripts=[]</script>
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/ico/logo.png">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">bharals</h5>
+          <a href="mailto:bharals@163.com" title="bharals@163.com" class="mail">bharals@163.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://www.weibo.com/p/1005052808030190/home?from=page_100505&mod=TAB&is_all=1#place" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                微博
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">七牛云图床使用</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">七牛云图床使用</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2017-08-07T00:37:32.089Z" itemprop="datePublished" class="page-time">
+  2017-08-07
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/skills/">skills</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>目 录</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#前言"><span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#创建七牛空间"><span class="post-toc-text">创建七牛空间</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#上传图片"><span class="post-toc-text">上传图片</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#获取外链"><span class="post-toc-text">获取外链</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#上传图片的多种方式"><span class="post-toc-text">上传图片的多种方式</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#感言"><span class="post-toc-text">感言</span></a></li></ol>
+        </nav>
+    </aside>
+    
+<article id="post-skills/七牛云图床使用"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">七牛云图床使用</h1>
+		<hr>
+        <div class="post-meta">
+            <time class="post-time" title="2017-08-07 08:37:32" datetime="2017-08-07T00:37:32.089Z"  itemprop="datePublished">2017-08-07</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/skills/">skills</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我为什么要使用七牛云？</p>
+<p>开始的时候，正在做自己的静态博客，用 hexo 的时候我一般都是直接在 markdown 里面插入本地的图片。这样做是很正常却也是很傻的一种方式。这样做的好处虽然是少了上传图片的这一个步骤，却是没有考虑到博客拥有很多图片时上传图片占用了很大的时间和空间。这样长远来看是很划算的一件事，于是我就去网上找了好些图床。</p>
+<p>百度了好多教程，都是推荐七牛云的为多（主要是七牛免费，哈哈）。为了建立七牛图床，也是花了自己好大的时间。悲催。流泪…下面开始正题。</p>
+<h2 id="创建七牛空间"><a href="#创建七牛空间" class="headerlink" title="创建七牛空间"></a>创建七牛空间</h2><p>七牛地址：<a href="https://www.qiniu.com/" target="_blank" rel="external">https://www.qiniu.com/</a><br>注册完成，并认证后，开始创建空间。如图：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ouabzbsra.bkt.clouddn.com/images/170807/ehI5c7mccE.png?imageslim" alt="mark" title="">
+                </div>
+                <div class="image-caption">mark</div>
+            </figure>
+<h2 id="上传图片"><a href="#上传图片" class="headerlink" title="上传图片"></a>上传图片</h2><p>我们可以直接在网页上上传：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ouabzbsra.bkt.clouddn.com/images/170807/eDFlJF8CLA.png?imageslim" alt="mark" title="">
+                </div>
+                <div class="image-caption">mark</div>
+            </figure>
+<h2 id="获取外链"><a href="#获取外链" class="headerlink" title="获取外链"></a>获取外链</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://ouabzbsra.bkt.clouddn.com/images/170807/DEI3leJlHd.png?imageslim" alt="mark" title="">
+                </div>
+                <div class="image-caption">mark</div>
+            </figure>
+<h2 id="上传图片的多种方式"><a href="#上传图片的多种方式" class="headerlink" title="上传图片的多种方式"></a>上传图片的多种方式</h2><ol>
+<li>强烈推荐： <a href="http://mpic.lzhaofu.cn/" target="_blank" rel="external">http://mpic.lzhaofu.cn/</a> 用这个软件上传图片，下载用过就知道其方便。</li>
+<li>Google 插件上传： <a href="https://chrome.google.com/webstore/detail/emmfkgdgapbjphdolealbojmcmnphdcc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/emmfkgdgapbjphdolealbojmcmnphdcc</a></li>
+<li>官方 qshell 上传下载，本人目前还没用，windows 下太不友好。闪退启动不了，我就能不了了之了。</li>
+</ol>
+<h2 id="感言"><a href="#感言" class="headerlink" title="感言"></a>感言</h2><p>折腾这个七牛图床，花了好长时间，没想到结果还是比较理想的。至于用官方 qshell 工具上传下载同步以后有时间再说吧。未完待续。。。</p>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2017-08-07T01:15:46.504Z" itemprop="dateUpdated">2017-08-07 09:15:46</time>
+</span><br>
+
+
+        
+        如果文章对您有用，欢迎点击下面赞赏，谢谢您的支持和鼓励！文章链接：<a href="/2017/08/07/skills/七牛云图床使用/" target="_blank" rel="external">http://ling007.cn/2017/08/07/skills/七牛云图床使用/</a>
+        
+    </div>
+    <footer>
+        <a href="http://ling007.cn">
+            <img src="/img/ico/logo.png" alt="bharals">
+            bharals
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/七牛云/">七牛云</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/图床/">图床</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://ling007.cn/2017/08/07/skills/七牛云图床使用/&title=《七牛云图床使用》 — Bharals's Blog&pic=http://ling007.cn/img/ico/logo.png" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://ling007.cn/2017/08/07/skills/七牛云图床使用/&title=《七牛云图床使用》 — Bharals's Blog&source=just do it" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://ling007.cn/2017/08/07/skills/七牛云图床使用/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《七牛云图床使用》 — Bharals's Blog&url=http://ling007.cn/2017/08/07/skills/七牛云图床使用/&via=http://ling007.cn" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://ling007.cn/2017/08/07/skills/七牛云图床使用/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2017/08/07/工作经验/Java项目经验——程序员成长的钥匙/" id="post-next" class="post-nav-link">
+        <div class="tips">下一页 <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">Java项目经验——程序员成长的钥匙</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢赞赏~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/reward/wechat.jpg" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/reward/wechat.jpg" data-alipay="/img/reward/alipay.jpg">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="bottom">
+        <p><span>bharals &copy; 2017</span></p>	
+		<span>
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+</span>
+		<p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>   
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://ling007.cn/2017/08/07/skills/七牛云图床使用/&title=《七牛云图床使用》 — Bharals's Blog&pic=http://ling007.cn/img/ico/logo.png" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://ling007.cn/2017/08/07/skills/七牛云图床使用/&title=《七牛云图床使用》 — Bharals's Blog&source=just do it" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://ling007.cn/2017/08/07/skills/七牛云图床使用/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《七牛云图床使用》 — Bharals's Blog&url=http://ling007.cn/2017/08/07/skills/七牛云图床使用/&via=http://ling007.cn" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://ling007.cn/2017/08/07/skills/七牛云图床使用/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACLUlEQVR42u3azY6DMAxFYd7/pRlpVl0M6bk2rQbnsKpaSvKxsOKf48DX+Xu9fn79Zv391a/rO49PXDJkyHgs41xeV/eseWs2WYvvTYYMGfsw0iDLwbVf46AsQ4YMGcvjGt8uP2LKkCFDRp/BYf3jpgwZMmTwJcm/yP210t5tubgMGTIeyKg1Br7z+eP9DRkyZPx7xhle/eV54A52JUOGjNEMnkx2tlIL37y0J0OGjNkMUkRbl+9J0S0dL4uLbjJkyBjNqB3gSBZJWpu14loQoGXIkDGCkQ5vkeU5rNN+eJOLy5AhYxzjEy3Ju7aIXpAMGTI2ZqRDEjVe+hwZMmTsyeiX5nma2h/2epPEypAhYxyj08jsh930NSG2DBkyxjFIC5MH2Q4vTZ7jTqwMGTIezkgDXK1huQbwtujlzIgMGTJGM472xQ+CPGWNhy1kyJCxAYOUz4K2Ih4y442ES5IMGTK2YfCCF18gDaz8yChDhox9GJ0ifq1JSQJxuooMGTJmM2pDWnHhPhzI4C9UhgwZuzFqhz9SVkuTZN7sDDJdGTJkPJbRGeS6a+Sr03744zkyZMgYx6gNVdQ2zQNoHOJlyJAxmpEGu/QR/PjIE1qS7sqQIWMeIx2nIJtOGwOd0Q0ZMmTsw0iblLWgHG8uHbaQIUPG9oy0lNYfZiX3y5AhQwZvG/CDY1pWQ/uRIUPGBoxaEpse6ciLSJsHMmTI2IHxzcZA2ubkZTgZMmQMZfwA/gz1G7H6fdwAAAAASUVORK5CYII=" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+</script>
+
+<script src="/js/main.min.js?v=1.6.10"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="/js/search.min.js?v=1.6.10" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
