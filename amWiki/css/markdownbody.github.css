@@ -11,7 +11,7 @@ b,strong{font-weight:bold}
 dfn{font-style:italic}
 h1{font-size:2em;margin:0.67em 0}
 mark{background:#ff0;color:#000}
-small{font-size:80%}
+small{font-size:96%}
 sub,sup{line-height:0;position:relative;vertical-align:baseline}
 sup{top:-0.5em}
 sub{bottom:-0.25em}
@@ -64,6 +64,7 @@ ul ul ol,ul ol ol,ol ul ol,ol ol ol{list-style-type:lower-alpha}
 dd{margin-left:0}
 tt,code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;font-size:12px}
 pre{margin-top:0;margin-bottom:0;font:12px Consolas,"Liberation Mono",Menlo,Courier,monospace}
+
 .markdown-body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.6;word-wrap:break-word}
 .markdown-body:before{display:table;content:""}
 .markdown-body:after{display:table;clear:both;content:""}
@@ -91,7 +92,7 @@ pre{margin-top:0;margin-bottom:0;font:12px Consolas,"Liberation Mono",Menlo,Cour
 .markdown-body h6{font-size:1em;color:#777}
 .markdown-body h6 .anchor{line-height:1.1}
 .markdown-body p,.markdown-body blockquote,.markdown-body ul,.markdown-body ol,.markdown-body dl,.markdown-body table,.markdown-body pre{margin-top:0;margin-bottom:16px}
-.markdown-body hr{height:4px;padding:0;margin:16px 0;background-color:#e7e7e7;border:0 none}
+.markdown-body hr{height:1px;padding:0;margin:18px 0;background-color:#e7e7e7;border:0 none}
 .markdown-body ul,.markdown-body ol{padding-left:2em}
 .markdown-body ul.no-list,.markdown-body ol.no-list{padding:0;list-style-type:none}
 .markdown-body ul ul,.markdown-body ul ol,.markdown-body ol ol,.markdown-body ol ul{margin-top:0;margin-bottom:0}
@@ -125,13 +126,13 @@ pre{margin-top:0;margin-bottom:0;font:12px Consolas,"Liberation Mono",Menlo,Cour
 .markdown-body span.float-left span{margin:13px 0 0}
 .markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}
 .markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}
-.markdown-body code,.markdown-body tt{padding:0;padding-top:0.2em;padding-bottom:0.2em;margin:0;font-size:85%;background-color:rgba(0,0,0,0.04);border-radius:3px}
+.markdown-body code,.markdown-body tt{color:#F0154B;padding:0;padding-top:0.2em;padding-bottom:0.2em;margin:0;font-size:88%;background-color:#EDEDED;border-radius:3px}
 .markdown-body code:before,.markdown-body code:after,.markdown-body tt:before,.markdown-body tt:after{letter-spacing:-0.2em;content:"\00a0"}
 .markdown-body code br,.markdown-body tt br{display:none}
 .markdown-body del code{text-decoration:inherit}
-.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:transparent;border:0}
+.markdown-body pre>code{color:#F0154B;padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:transparent;border:0}
 .markdown-body .highlight{margin-bottom:16px}
-.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}
+.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:96%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}
 .markdown-body .highlight pre{margin-bottom:0;word-break:normal}
 .markdown-body pre{word-wrap:normal}
 .markdown-body pre code,.markdown-body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}
